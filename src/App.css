@@ -40,6 +40,9 @@ a.header-brand {
   background-color: #a8a8a8 !important;
 }
 
+.btn-link {
+  color: #000000;
+}
 .dropdown a span{
   color: #a8a8a8 !important;
 }
