@@ -2,6 +2,54 @@
   height: 100%;
 }
 
+/* Custom color scheme to UI */
+.header {
+  background-color: #637457 !important;
+  color: #a8a8a8 !important;
+}
+
+body {
+  background-color: #eef3e5 !important;
+  color: #575757 !important;
+}
+a {
+  color: #a8a8a8 !important;
+}
+a.header-brand {
+  color: #a8a8a8 !important;
+}
+.card {
+  background-color: #eef3e5 !important;
+}
+
+.form-control {
+  background-color: #eef3e5 !important;
+}
+.btn.btn-primary {
+  background-color: #637457 !important;
+  color: #eef3e5 !important;
+}
+
+.btn.btn-outline-primary {
+  color: #a8a8a8 !important;
+  border-color: #a8a8a8 !important;
+}
+
+.btn.btn-outline-primary:hover {
+  color: #a8a8a8 !important;
+  background-color: #a8a8a8 !important;
+}
+
+.dropdown a span{
+  color: #a8a8a8 !important;
+}
+.btn.btn-secondary {
+  color: #a8a8a8 !important;
+  border-color: #a8a8a8 !important;
+}
+
+/* End of Custom color scheme to UI */
+
 /* font classes begin */
 
 .bold {
@@ -704,7 +752,7 @@ input[type=color] {
 /* Bring grid used as table in line with table */
 
 .cs-grid-table-header {
-  color: #9aa0ac;
+  color: #637457;
   font-size: 15px;
   text-transform: uppercase;
 }
