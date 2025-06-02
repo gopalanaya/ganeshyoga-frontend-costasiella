@@ -161,7 +161,6 @@ const getNavBarItems = (t, user) => {
   //   })
   // }
 
-
   return items
 
 }
