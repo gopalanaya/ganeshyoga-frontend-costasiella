@@ -2663,7 +2663,9 @@
             "selfcheckin_to": "Go to self check-in",
             "shop_explanation": "Shop and your personal profile.",
             "shop_to": "Go to shop",
-            "where_next_question": "Where would you like to go next?"
+            "where_next_question": "Where would you like to go next?",
+            "myaccount_to": "Go to My Account",
+            "myaccount_explanation": "User Dashboard"
         }
     },
     "validity": {

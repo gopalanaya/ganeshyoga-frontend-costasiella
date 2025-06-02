@@ -352,6 +352,13 @@ import UserLogout from './components/user/login/UserLogout'
 import UserSessionExpired from './components/user/session/UserSessionExpired'
 import UserWelcome from './components/user/welcome/UserWelcome'
 
+// Custom function for Yoga website
+import YogaBase from './components/yoga/YogaBase'
+import YogaAccountSubscriptionCredits from './components/yoga/account/subscriptions/credits/YogaAccountSubscriptionCredits'
+import YogaAccountSubscriptions from './components/yoga/account/subscriptions/YogaAccountSubscriptions'
+import YogaAccountClasspasses from './components/yoga/account/classpasses/YogaAccountClasspasses'
+import YogaAccountClasses from "./components/yoga/account/classes/YogaAccountClasses"
+import YogaAccountEventTickets from './components/yoga/account/event_tickets/YogaAccountEventTickets.jsx'
 
 import Error404 from "./components/Error404"
 
@@ -859,6 +866,14 @@ function AppRoot({ t }) {
             <Route exact path="/user/logout" component={UserLogout} />
             <Route exact path="/user/session/expired" component={UserSessionExpired} />
             <Route exact path="/user/welcome" component={UserWelcome} />
+
+            { /* Custom Yoga Path */}
+            <PrivateRoute exact path="/yoga" component={YogaBase}/>
+            <PrivateRoute exact path="/yoga/account/subscriptions/:subscription_id/credits" component={YogaAccountSubscriptionCredits} />
+            <PrivateRoute exact path="/yoga/account/subscriptions" component={YogaAccountSubscriptions} />
+            <PrivateRoute exact path="/yoga/account/classpasses" component={YogaAccountClasspasses} />
+            <PrivateRoute exact path="/yoga/account/classes" component={YogaAccountClasses} />
+            <PrivateRoute exact path="/yoga/account/event_tickets" component={YogaAccountEventTickets} />
             
             <Route component={Error404} />
           </Switch>

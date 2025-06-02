@@ -56,6 +56,21 @@ function Welcome({t, match, history}) {
         <Grid.Col xs={12} sm={12} md={3} offsetMd={3}>
           <Card>
             <Card.Body>
+              <h5>{t("user.welcome.myaccount_explanation")}</h5>
+              {t("shop.account.title")} <br /><br />
+              <Link to="/yoga">
+                <Button 
+                  block
+                  outline
+                  color="primary"
+                >
+                  {t("user.welcome.myaccount_to")} <Icon name="chevron-right" />
+                </Button>
+              </Link>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
               <h5>{t("shop.title")}</h5>
               {t("user.welcome.shop_explanation")} <br /><br />
               <Link to="/">
