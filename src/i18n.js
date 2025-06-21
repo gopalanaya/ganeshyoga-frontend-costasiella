@@ -14,10 +14,14 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 // }
 
 import en_US_common from "./i18n/en_US/common"
+import de_DE_common from "./i18n/de_DE/common"
 const resources = {
     en_US: {
         common: en_US_common
     },
+    de_DE: {
+      common: de_DE_common
+    }
 }
 
 console.log(resources)
