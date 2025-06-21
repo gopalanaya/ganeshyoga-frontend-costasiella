@@ -1,0 +1,2691 @@
+{
+    "View info": "Informationen anzeigen",
+    "automation": {
+        "account": {
+            "subscriptions": {
+                "credits": {
+                    "empty_list": "Diese Aufgabe wurde noch nicht ausgeführt.",
+                    "explanation": "Monatliche Guthaben für alle aktiven Abonnements hinzufügen.",
+                    "title": "Guthaben hinzufügen",
+                    "title_add": "Abonnementguthaben für Monat hinzufügen",
+                    "title_card": "Ergebnis der Guthabenhinzufügung",
+                    "toast_add_success": "Guthaben werden hinzugefügt..."
+                },
+                "invoices": {
+                    "empty_list": "Diese Aufgabe wurde noch nicht ausgeführt.",
+                    "explanation": "Monatliche Rechnungen für alle aktiven Abonnements erstellen.",
+                    "invoice_date": "Rechnungsdatum",
+                    "invoice_date_first_day_month": "1. des gewählten Monats",
+                    "title": "Monatliche Rechnungen",
+                    "title_add": "Abonnementrechnungen für Monat erstellen",
+                    "title_card": "Ergebnis der monatlichen Rechnungserstellung",
+                    "toast_add_success": "Erstellung der Abonnementrechnungen gestartet...",
+                    "today": "Heute"
+                },
+                "mollie_collection": {
+                    "empty_list": "Diese Aufgabe wurde noch nicht ausgeführt.",
+                    "explanation": "Zahlungen für Mollie-Abonnements einziehen.",
+                    "title": "Mollie-Zahlungseinzug",
+                    "title_add": "Mollie-Abonnementzahlungen für Monat einziehen",
+                    "title_card": "Ergebnis des Mollie-Abonnementzahlungseinzugs",
+                    "toast_add_success": "Einzug der Abonnementzahlungen gestartet..."
+                },
+                "title": "Kontoabonnements"
+            }
+        },
+        "general": {
+            "status": {
+                "title": "Status"
+            },
+            "task_kwargs": "Aufgabenargumente",
+            "task_result": "Ergebnis",
+            "time_completed": "Abgeschlossen am"
+        },
+        "home": {
+            "link_edit": "Ansehen"
+        },
+        "tasks": {
+            "result_statuses": {
+                "failure": "Fehlgeschlagen",
+                "pending": "Ausstehend...",
+                "retry": "Wiederholen",
+                "revoked": "Widerrufen",
+                "started": "Gestartet...",
+                "success": "Erfolgreich"
+            }
+        },
+        "title": "Automatisierung"
+    },
+    "cookie_policy": {
+        "policy_text": "Die Cookie-Richtlinie für unsere Plattform ist sehr einfach. Es werden nur funktionale Cookies verwendet. Cookies werden beispielsweise verwendet, um sicherzustellen, dass Sie sich anmelden können, um Ihre Sicherheit zu gewährleisten und sicherzustellen, dass alles wie erwartet funktioniert. Es werden keine anderen oder zusätzlichen Cookies verwendet. Das bedeutet, dass es keine Cookies von Drittanbietern oder Tracking- oder Werbecookies gibt.",
+        "title": "Cookie-Richtlinie"
+    },
+    "countries": {
+        "Afghanistan": "Afghanistan",
+        "Albania": "Albanien",
+        "Algeria": "Algerien",
+        "American_Samoa": "Amerikanisch-Samoa",
+        "Andorra": "Andorra",
+        "Angola": "Angola",
+        "Anguilla": "Anguilla",
+        "Antarctica": "Antarktis",
+        "Antigua_and_Barbuda": "Antigua und Barbuda",
+        "Argentina": "Argentinien",
+        "Armenia": "Armenien",
+        "Aruba": "Aruba",
+        "Australia": "Australien",
+        "Austria": "Österreich",
+        "Azerbaijan": "Aserbaidschan",
+        "Bahamas": "Bahamas",
+        "Bahrain": "Bahrain",
+        "Bangladesh": "Bangladesch",
+        "Barbados": "Barbados",
+        "Belarus": "Belarus",
+        "Belgium": "Belgien",
+        "Belize": "Belize",
+        "Benin": "Benin",
+        "Bermuda": "Bermuda",
+        "Bhutan": "Bhutan",
+        "Bolivia,_Plurinational_State_of": "Bolivien, Plurinationaler Staat",
+        "Bonaire,_Sint_Eustatius_and_Saba": "Bonaire, Sint Eustatius und Saba",
+        "Bosnia_and_Herzegovina": "Bosnien und Herzegowina",
+        "Botswana": "Botswana",
+        "Bouvet_Island": "Bouvetinsel",
+        "Brazil": "Brasilien",
+        "British_Indian_Ocean_Territory": "Britisches Territorium im Indischen Ozean",
+        "Brunei_Darussalam": "Brunei Darussalam",
+        "Bulgaria": "Bulgarien",
+        "Burkina_Faso": "Burkina Faso",
+        "Burundi": "Burundi",
+        "Cambodia": "Kambodscha",
+        "Cameroon": "Kamerun",
+        "Canada": "Kanada",
+        "Cape_Verde": "Kap Verde",
+        "Cayman_Islands": "Kaimaninseln",
+        "Central_African_Republic": "Zentralafrikanische Republik",
+        "Chad": "Tschad",
+        "Chile": "Chile",
+        "China": "China",
+        "Christmas_Island": "Weihnachtsinsel",
+        "Cocos_(Keeling)_Islands": "Kokos-(Keeling-)Inseln",
+        "Colombia": "Kolumbien",
+        "Comoros": "Komoren",
+        "Congo": "Kongo",
+        "Congo,_the_Democratic_Republic_of_the": "Kongo, Demokratische Republik",
+        "Cook_Islands": "Cookinseln",
+        "Costa_Rica": "Costa Rica",
+        "Croatia": "Kroatien",
+        "Cuba": "Kuba",
+        "Curaçao": "Curaçao",
+        "Cyprus": "Zypern",
+        "Czech_Republic": "Tschechische Republik",
+        "Côte_d'Ivoire": "Côte d'Ivoire",
+        "Denmark": "Dänemark",
+        "Djibouti": "Dschibuti",
+        "Dominica": "Dominica",
+        "Dominican_Republic": "Dominikanische Republik",
+        "Ecuador": "Ecuador",
+        "Egypt": "Ägypten",
+        "El_Salvador": "El Salvador",
+        "Equatorial_Guinea": "Äquatorialguinea",
+        "Eritrea": "Eritrea",
+        "Estonia": "Estland",
+        "Ethiopia": "Äthiopien",
+        "Falkland_Islands_(Malvinas)": "Falklandinseln (Malwinen)",
+        "Faroe_Islands": "Färöer",
+        "Fiji": "Fidschi",
+        "Finland": "Finnland",
+        "France": "Frankreich",
+        "French_Guiana": "Französisch-Guayana",
+        "French_Polynesia": "Französisch-Polynesien",
+        "French_Southern_Territories": "Französische Südgebiete",
+        "Gabon": "Gabun",
+        "Gambia": "Gambia",
+        "Georgia": "Georgien",
+        "Germany": "Deutschland",
+        "Ghana": "Ghana",
+        "Gibraltar": "Gibraltar",
+        "Greece": "Griechenland",
+        "Greenland": "Grönland",
+        "Grenada": "Grenada",
+        "Guadeloupe": "Guadeloupe",
+        "Guam": "Guam",
+        "Guatemala": "Guatemala",
+        "Guernsey": "Guernsey",
+        "Guinea": "Guinea",
+        "Guinea-Bissau": "Guinea-Bissau",
+        "Guyana": "Guyana",
+        "Haiti": "Haiti",
+        "Heard_Island_and_McDonald_Islands": "Heard und McDonaldinseln",
+        "Holy_See_(Vatican_City_State)": "Heiliger Stuhl (Vatikanstadt)",
+        "Honduras": "Honduras",
+        "Hong_Kong": "Hongkong",
+        "Hungary": "Ungarn",
+        "Iceland": "Island",
+        "India": "Indien",
+        "Indonesia": "Indonesien",
+        "Iran,_Islamic_Republic_of": "Iran, Islamische Republik",
+        "Iraq": "Irak",
+        "Ireland": "Irland",
+        "Isle_of_Man": "Isle of Man",
+        "Israel": "Israel",
+        "Italy": "Italien",
+        "Jamaica": "Jamaika",
+        "Japan": "Japan",
+        "Jersey": "Jersey",
+        "Jordan": "Jordanien",
+        "Kazakhstan": "Kasachstan",
+        "Kenya": "Kenia",
+        "Kiribati": "Kiribati",
+        "Korea,_Democratic_People's_Republic_of": "Korea, Demokratische Volksrepublik",
+        "Korea,_Republic_of": "Korea, Republik",
+        "Kuwait": "Kuwait",
+        "Kyrgyzstan": "Kirgisistan",
+        "Lao_People's_Democratic_Republic": "Laos, Demokratische Volksrepublik",
+        "Latvia": "Lettland",
+        "Lebanon": "Libanon",
+        "Lesotho": "Lesotho",
+        "Liberia": "Liberia",
+        "Libya": "Libyen",
+        "Liechtenstein": "Liechtenstein",
+        "Lithuania": "Litauen",
+        "Luxembourg": "Luxemburg",
+        "Macao": "Macao",
+        "Macedonia,_the_Former_Yugoslav_Republic_of": "Mazedonien, ehemalige jugoslawische Republik",
+        "Madagascar": "Madagaskar",
+        "Malawi": "Malawi",
+        "Malaysia": "Malaysia",
+        "Maldives": "Malediven",
+        "Mali": "Mali",
+        "Malta": "Malta",
+        "Marshall_Islands": "Marshallinseln",
+        "Martinique": "Martinique",
+        "Mauritania": "Mauretanien",
+        "Mauritius": "Mauritius",
+        "Mayotte": "Mayotte",
+        "Mexico": "Mexiko",
+        "Micronesia,_Federated_States_of": "Mikronesien, Föderierte Staaten von",
+        "Moldova,_Republic_of": "Moldau, Republik",
+        "Monaco": "Monaco",
+        "Mongolia": "Mongolei",
+        "Montenegro": "Montenegro",
+        "Montserrat": "Montserrat",
+        "Morocco": "Marokko",
+        "Mozambique": "Mosambik",
+        "Myanmar": "Myanmar",
+        "Namibia": "Namibia",
+        "Nauru": "Nauru",
+        "Nepal": "Nepal",
+        "Netherlands": "Niederlande",
+        "New_Caledonia": "Neukaledonien",
+        "New_Zealand": "Neuseeland",
+        "Nicaragua": "Nicaragua",
+        "Niger": "Niger",
+        "Nigeria": "Nigeria",
+        "Niue": "Niue",
+        "Norfolk_Island": "Norfolkinsel",
+        "Northern_Mariana_Islands": "Nördliche Marianen",
+        "Norway": "Norwegen",
+        "Oman": "Oman",
+        "Pakistan": "Pakistan",
+        "Palau": "Palau",
+        "Palestine,_State_of": "Palästina, Staat",
+        "Panama": "Panama",
+        "Papua_New_Guinea": "Papua-Neuguinea",
+        "Paraguay": "Paraguay",
+        "Peru": "Peru",
+        "Philippines": "Philippinen",
+        "Pitcairn": "Pitcairn",
+        "Poland": "Polen",
+        "Portugal": "Portugal",
+        "Puerto_Rico": "Puerto Rico",
+        "Qatar": "Katar",
+        "Romania": "Rumänien",
+        "Russian_Federation": "Russische Föderation",
+        "Rwanda": "Ruanda",
+        "Réunion": "Réunion",
+        "Saint_Barthélemy": "Saint-Barthélemy",
+        "Saint_Helena,_Ascension_and_Tristan_da_Cunha": "St. Helena, Ascension und Tristan da Cunha",
+        "Saint_Kitts_and_Nevis": "St. Kitts und Nevis",
+        "Saint_Lucia": "St. Lucia",
+        "Saint_Martin_(French_part)": "Saint-Martin (französischer Teil)",
+        "Saint_Pierre_and_Miquelon": "Saint-Pierre und Miquelon",
+        "Saint_Vincent_and_the_Grenadines": "St. Vincent und die Grenadinen",
+        "Samoa": "Samoa",
+        "San_Marino": "San Marino",
+        "Sao_Tome_and_Principe": "São Tomé und Príncipe",
+        "Saudi_Arabia": "Saudi-Arabien",
+        "Senegal": "Senegal",
+        "Serbia": "Serbien",
+        "Seychelles": "Seychellen",
+        "Sierra_Leone": "Sierra Leone",
+        "Singapore": "Singapur",
+        "Sint_Maarten_(Dutch_part)": "Sint Maarten (niederländischer Teil)",
+        "Slovakia": "Slowakei",
+        "Slovenia": "Slowenien",
+        "Solomon_Islands": "Salomonen",
+        "Somalia": "Somalia",
+        "South_Africa": "Südafrika",
+        "South_Georgia_and_the_South_Sandwich_Islands": "Südgeorgien und die Südlichen Sandwichinseln",
+        "South_Sudan": "Südsudan",
+        "Spain": "Spanien",
+        "Sri_Lanka": "Sri Lanka",
+        "Sudan": "Sudan",
+        "Suriname": "Suriname",
+        "Svalbard_and_Jan_Mayen": "Spitzbergen und Jan Mayen",
+        "Swaziland": "Swasiland",
+        "Sweden": "Schweden",
+        "Switzerland": "Schweiz",
+        "Syrian_Arab_Republic": "Syrische Arabische Republik",
+        "Taiwan,_Province_of_China": "Taiwan, Provinz China",
+        "Tajikistan": "Tadschikistan",
+        "Tanzania,_United_Republic_of": "Tansania, Vereinigte Republik",
+        "Thailand": "Thailand",
+        "Timor-Leste": "Timor-Leste",
+        "Togo": "Togo",
+        "Tokelau": "Tokelau",
+        "Tonga": "Tonga",
+        "Trinidad_and_Tobago": "Trinidad und Tobago",
+        "Tunisia": "Tunesien",
+        "Turkey": "Türkei",
+        "Turkmenistan": "Turkmenistan",
+        "Turks_and_Caicos_Islands": "Turks- und Caicosinseln",
+        "Tuvalu": "Tuvalu",
+        "Uganda": "Uganda",
+        "Ukraine": "Ukraine",
+        "United_Arab_Emirates": "Vereinigte Arabische Emirate",
+        "United_Kingdom": "Vereinigtes Königreich",
+        "United_States": "Vereinigte Staaten",
+        "United_States_Minor_Outlying_Islands": "Kleinere abgelegene Inseln der Vereinigten Staaten",
+        "Uruguay": "Uruguay",
+        "Uzbekistan": "Usbekistan",
+        "Vanuatu": "Vanuatu",
+        "Venezuela,_Bolivarian_Republic_of": "Venezuela, Bolivarische Republik",
+        "Viet_Nam": "Vietnam",
+        "Virgin_Islands_British": "Britische Jungferninseln",
+        "Virgin_Islands_US": "Amerikanische Jungferninseln",
+        "Wallis_and_Futuna": "Wallis und Futuna",
+        "Western_Sahara": "Westsahara",
+        "Yemen": "Jemen",
+        "Zambia": "Sambia",
+        "Zimbabwe": "Simbabwe",
+        "Åland_Islands": "Ålandinseln"
+    },
+    "datepicker": {
+        "placeholder": "Datum auswählen",
+        "placeholder_time": "Zeit auswählen"
+    },
+    "datetime": {
+        "isoweekdays": {
+            "friday": "Freitag",
+            "monday": "Montag",
+            "saturday": "Samstag",
+            "sunday": "Sonntag",
+            "thursday": "Donnerstag",
+            "tuesday": "Dienstag",
+            "wednesday": "Mittwoch"
+        },
+		"months": {
+			"april": "April",
+			"august": "August",
+			"december": "Dezember",
+			"february": "Februar",
+			"january": "Januar",
+			"july": "Juli",
+			"june": "Juni",
+			"march": "März",
+			"may": "Mai",
+			"november": "November",
+			"october": "Oktober",
+			"september": "September",
+			"short_april": "Apr",
+			"short_august": "Aug",
+			"short_decemer": "Dez",
+			"short_february": "Feb",
+			"short_january": "Jan",
+			"short_july": "Jul",
+			"short_june": "Jun",
+			"short_march": "Mär",
+			"short_may": "Mai",
+			"short_november": "Nov",
+			"short_october": "Okt",
+			"short_september": "Sep"
+		}
+	},
+    "error_messages": {
+        "selected_file_exceeds_max_filesize": "Die gewählte Datei überschreitet die Größenbeschränkung. Bitte wählen Sie eine Datei, die < 5MB ist"
+    },
+    "finance": {
+        "code": "Buchungscode",
+        "costcenters": {
+            "empty_archive": "Kostenstellen-Archiv ist leer",
+            "empty_list": "Keine Kostenstellen gefunden",
+            "error_loading": "Fehler beim Laden der Kostenstellen :(",
+            "explanation": "Kostenstellen verwalten",
+            "title": "Kostenstellen",
+            "title_add": "Kostenstelle hinzufügen",
+            "title_edit": "Kostenstelle bearbeiten",
+            "toast_add_success": "Kostenstelle hinzugefügt",
+            "toast_edit_success": "Kostenstelle gespeichert"
+        },
+        "expenes": {
+            "filter_all_suppliers": "Alle Lieferanten"
+        },
+        "expenses": {
+            "confirm_duplicate": "Möchten Sie diese Ausgabe duplizieren?",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Ausgabe entfernen möchten?",
+            "deleted": "Ausgabe gelöscht",
+            "empty_list": "Keine Ausgaben gefunden ...",
+            "error_loading": "Fehler beim Laden der Ausgaben... :(",
+            "explanation": "Ausgaben verfolgen",
+            "export": {
+                "ready": {
+                    "explanation": "Ein Export wurde mit den folgenden Werten vorbereitet:",
+                    "title": "Export bereit"
+                },
+                "title": "Ausgaben exportieren"
+            },
+            "filter_label_date_from": "Datum von",
+            "filter_label_date_until": "Datum bis",
+            "filter_label_supplier": "Lieferant",
+            "title": "Ausgaben",
+            "title_add": "Ausgabe hinzufügen",
+            "title_edit": "Ausgabe bearbeiten",
+            "toast_add_success": "Ausgabe hinzugefügt",
+            "toast_duplicate_success": "Ausgabe dupliziert. Sie bearbeiten jetzt die duplizierte Ausgabe.",
+            "toast_edit_success": "Gespeichert"
+        },
+        "glaccounts": {
+            "empty_archive": "Hauptbuch-Archiv ist leer",
+            "empty_list": "Keine Hauptbuchkonten gefunden",
+            "error_loading": "Fehler beim Laden der Hauptbuchkonten :(",
+            "explanation": "Hauptbuchkonten verwalten",
+            "title": "Hauptbuchkonten",
+            "title_add": "Hauptbuchkonto hinzufügen",
+            "title_edit": "Hauptbuchkonto bearbeiten",
+            "toast_add_success": "G/L-Konto hinzugefügt",
+            "toast_edit_success": "G/L-Konto gespeichert"
+        },
+        "home": {
+            "batches": {
+                "title": "Stapel"
+            },
+            "general": {
+                "title": "Allgemein"
+            },
+            "structure": {
+                "title": "Struktur"
+            },
+            "taxes": {
+                "title": "Steuern"
+            }
+        },
+        "invoice": {
+            "account_profile_link": "Link zur Rechnung im Kontoprofil",
+            "account_profile_link_explanation": "Link zur Rechnung im Profil dieses Kontos. Nur das mit dieser Rechnung verknüpfte Konto kann sie nach der Anmeldung einsehen.",
+            "cancel_and_create_credit_invoice": "Stornieren und Gutschriftsrechnung erstellen",
+            "credit_invoice_for": "Gutschriftsrechnung für",
+            "edit_to": {
+                "title": "An"
+            },
+            "item": {
+                "toast_edit_success": "Position gespeichert"
+            },
+            "item_add": "Position hinzufügen",
+            "now_editing_credit_invoice": "Sie bearbeiten jetzt die Gutschriftsrechnung",
+            "payments": {
+                "add": "Zahlung hinzufügen",
+                "edit": "Zahlung bearbeiten",
+                "empty_list": "Dieser Rechnung wurden noch keine Zahlungen hinzugefügt",
+                "toast_add_success": "Zahlung hinzugefügt",
+                "toast_edit_success": "Zahlung gespeichert"
+            },
+            "saved_item_sorting": "Sortierung aktualisiert",
+            "title": "Rechnung",
+            "toast_add_item_success": "Position hinzugefügt",
+            "toast_edit_footer_success": "Fußzeile gespeichert",
+            "toast_edit_note_success": "Notiz gespeichert",
+            "toast_edit_options_success": "Optionen gespeichert",
+            "toast_edit_summary_success": "Zusammenfassung gespeichert",
+            "toast_edit_terms_success": "Bedingungen gespeichert",
+            "toast_edit_to_success": "Empfänger gespeichert"
+        },
+        "invoice_groups": {
+            "auto_reset_prefix_year": "Am 1. Januar auf 1 zurücksetzen",
+            "due_after_days": "Fällig nach Tagen",
+            "error_loading": "Fehler beim Laden der Rechnungsgruppen :(",
+            "next_id": "Nächste #",
+            "prefix_year": "Jahrespräfix",
+            "public": "Rechnungen aus dieser Gruppe in Kontoprofilen anzeigen",
+            "title": "Rechnungsgruppen",
+            "title_add": "Rechnungsgruppe hinzufügen",
+            "title_edit": "Rechnungsgruppe bearbeiten",
+            "toast_add_success": "Rechnungsgruppe hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "invoice_groups_defaults": {
+            "CLASSPASSES": "Kurspässe",
+            "DROPINCLASSES": "Einzelkurse",
+            "EMPLOYEE_EXPENSES": "Mitarbeiterausgaben",
+            "EVENT_TICKETS": "Veranstaltungstickets",
+            "INSTRUCTOR_PAYMENTS": "Trainerzahlungen",
+            "MEMBERSHIPS": "Mitgliedschaften",
+            "SHOP_SALES": "Shop-Verkäufe",
+            "SUBSCRIPTIONS": "Abonnements",
+            "TRIALCLASSES": "Probekurse",
+            "TYPE_NOT_FOUND": "Typ nicht gefunden...",
+            "empty_list": "Es wurden keine Rechnungspositionstypen definiert. Wurden die Vorlagen geladen?",
+            "error_loading": "Fehler beim Laden der Standard-Rechnungsgruppen :(",
+            "invoice_group": "Standard-Rechnungsgruppe",
+            "item_type": "Positionstyp",
+            "title": "Standard-Rechnungsgruppen"
+        },
+        "invoices": {
+            "date": "Datum",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Rechnung löschen möchten?",
+            "deleted": "Rechnung gelöscht",
+            "due": "Fällig",
+            "edit_to": {
+                "custom_to": "Empfängeradresse manuell festlegen, nicht aus Konto oder Unternehmen kopieren."
+            },
+            "empty_list": "Keine Rechnungen gefunden",
+            "error_loading": "Fehler beim Laden der Rechnungen :(",
+            "explanation": "Rechnungen verwalten",
+            "export": {
+                "btn_prepare_export": "Export vorbereiten",
+                "ready": {
+                    "explanation": "Ein Export wurde mit den folgenden Werten vorbereitet:",
+                    "title": "Export bereit"
+                },
+                "title": "Rechnungen exportieren"
+            },
+            "filter_label_date_from": "Datum von",
+            "filter_label_date_until": "Datum bis",
+            "filter_label_search": "Rechnungsnummer suchen",
+            "filter_label_status": "Status",
+            "invoice_number": "Rechnungsnr.",
+            "item_delete_confirm_msg": "Sind Sie sicher, dass Sie diese Position löschen möchten?",
+            "item_deleted": "Position gelöscht",
+            "payment_delete_confirm_msg": "Sind Sie sicher, dass Sie diese Zahlung löschen möchten?",
+            "payment_deleted": "Zahlung gelöscht",
+            "relation": "Beziehung",
+            "relation_address": "Adresse",
+            "relation_city": "Stadt",
+            "relation_company": "Unternehmen",
+            "relation_company_registration": "Registrierung",
+            "relation_company_tax_registration": "Steuerregistrierung",
+            "relation_contact_name": "Kontaktname",
+            "relation_country": "Land",
+            "relation_postcode": "Postleitzahl",
+            "status": {
+                "ALL": "Alle Status",
+                "CANCELLED": "Storniert",
+                "DRAFT": "Entwurf",
+                "NOT_FOUND": "Nicht gefunden",
+                "OVERDUE": "Überfällig",
+                "PAID": "Bezahlt",
+                "SENT": "Gesendet"
+            },
+            "statuses": {
+                "all": "Alle Status",
+                "cancelled": "Storniert",
+                "draft": "Entwurf",
+                "overdue": "Überfällig",
+                "paid": "Bezahlt",
+                "sent": "Gesendet"
+            },
+            "summary": "Zusammenfassung",
+            "title": "Rechnungen"
+        },
+        "orders": {
+            "customer_message": "Kundennachricht",
+            "date": "Eingegangen",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Bestellung löschen möchten?",
+            "deleted": "Bestellung gelöscht",
+            "edit_details": "Bestellung bearbeiten",
+            "empty_list": "Keine Bestellungen gefunden...",
+            "error_loading": "Fehler beim Laden der Bestellungen :(",
+            "explanation": "Bestellungen verwalten",
+            "order_number": "Bestellnr.",
+            "placed_at": "Eingegangen am",
+            "relation": "Beziehung",
+            "set_status_to_delivered_to_deliver_manually": "Ändern Sie den Status auf 'Geliefert', um die Bestellung manuell zu liefern und eine Rechnung zu erstellen.",
+            "statuses": {
+                "AWAITING_PAYMENT": "Warten auf Zahlung",
+                "CANCELLED": "Storniert",
+                "DELIVERED": "Geliefert",
+                "DELIVERY_ERROR": "Lieferfehler",
+                "NOT_FOUND": "Nicht gefunden",
+                "PAID": "Bezahlt",
+                "RECEIVED": "Eingegangen",
+                "all": "Alle Status"
+            },
+            "title": "Bestellungen",
+            "toast_edit_success": "Status gespeichert"
+        },
+        "payment_batch": {
+            "error_loading": "Fehler beim Laden des Zahlungsstapels... :(",
+            "status": {
+                "APPROVED": "Genehmigt",
+                "AWAITING_APPROVAL": "Warten auf Genehmigung",
+                "REJECTED": "Abgelehnt",
+                "SENT_TO_BANK": "An Bank gesendet"
+            },
+            "title_add": "Zahlungsstapel hinzufügen",
+            "title_batch_exports": "Exporte",
+            "title_batch_info": "Stapel-Info",
+            "title_batch_items": "Positionen",
+            "title_batch_note": "Notiz",
+            "title_batch_totals": "Summen",
+            "title_edit": "Zahlungsstapel bearbeiten",
+            "title_view": "Zahlungsstapel"
+        },
+        "payment_batch_categories": {
+            "batch_category_type": "Kategorie-Typ",
+            "empty_archive": "Noch keine Zahlungsstapelkategorien archiviert",
+            "empty_list": "Keine Zahlungsstapelkategorien gefunden...",
+            "error_loading": "Fehler beim Laden der Zahlungsstapelkategorien... :(",
+            "explanation": "Zahlungsstapelkategorien verwalten",
+            "payment_batch_category_type": {
+                "COLLECTION": "Einzug",
+                "NOT_FOUND": "Nicht gefunden",
+                "PAYMENT": "Zahlung"
+            },
+            "title": "Zahlungsstapelkategorien",
+            "title_add": "Zahlungsstapelkategorie hinzufügen",
+            "title_edit": "Zahlungsstapelkategorie bearbeiten",
+            "toast_add_success": "Zahlungsstapelkategorie hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "payment_batch_collections": {
+            "category_batch": "Zahlungsstapelkategorie",
+            "category_batch_description": "Erstellen Sie einen Stapel mit Positionen in einem gewählten Monat für eine Zahlungsstapelkategorie.",
+            "empty_list": "Keine Einzugsstapel gefunden",
+            "explanation": "Einzugsstapel verwalten",
+            "invoices_batch": "Rechnungen",
+            "invoices_batch_description": "Erstellen Sie einen Stapel mit allen Rechnungen mit Status 'gesendet' und Zahlungsmethode 'Lastschrift'.",
+            "title": "Einzugsstapel",
+            "title_add_what": "Wählen Sie den Typ des hinzuzufügenden Einzugsstapels"
+        },
+        "payment_batch_payments": {
+            "category_batch": "Zahlungsstapelkategorie",
+            "category_batch_description": "Erstellen Sie einen Stapel mit Positionen in einem gewählten Monat für eine Zahlungsstapelkategorie.",
+            "empty_list": "Keine Zahlungsstapel gefunden",
+            "explanation": "Zahlungsstapel verwalten",
+            "title": "Zahlungsstapel",
+            "title_add_what": "Wählen Sie den Typ des hinzuzufügenden Zahlungsstapels"
+        },
+        "payment_batches": {
+            "batch_category": "Kategorie",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Stapel löschen möchten?",
+            "deleted": "Stapel gelöscht",
+            "error_loading": "Fehler beim Laden der Stapel... :(",
+            "error_loading_input_values": "Fehler beim Laden der Eingabewerte... :(",
+            "execution_date": "Ausführungsdatum",
+            "include_zero_amounts": "Nullbeträge einbeziehen",
+            "status": {
+                "APPROVED": "Genehmigt",
+                "AWAITING_APPROVAL": "Warten auf Genehmigung",
+                "REJECTED": "Abgelehnt",
+                "SENT_TO_BANK": "An Bank gesendet",
+                "invalid_type": "Ungültiger Status"
+            },
+            "toast_add_success": "Zahlungsstapel hinzugefügt. Positionen werden hinzugefügt, bitte warten...",
+            "toast_edit_status_success": "Stapelstatus aktualisiert",
+            "toast_edit_success": "Gespeichert"
+        },
+        "payment_methods": {
+            "add": "Zahlungsmethode hinzufügen",
+            "direct_debit": "Lastschrift",
+            "empty_archive": "Zahlungsmethoden-Archiv ist leer",
+            "empty_list": "Keine Zahlungsmethoden gefunden",
+            "error_loading": "Fehler beim Laden der Zahlungsmethoden :(",
+            "explanation": "Zahlungsmethoden verwalten",
+            "mollie": "Mollie",
+            "title": "Zahlungsmethoden",
+            "title_add": "Zahlungsmethode hinzufügen",
+            "title_edit": "Zahlungsmethode bearbeiten",
+            "toast_add_success": "Zahlungsmethode hinzugefügt",
+            "toast_edit_success": "Zahlungsmethode gespeichert"
+        },
+        "quote": {
+            "account_profile_link": "Link zum Angebot im Kontoprofil",
+            "account_profile_link_explanation": "Link zum Angebot im Profil dieses Kontos. Nur das mit diesem Angebot verknüpfte Konto kann es nach der Anmeldung einsehen.",
+            "edit_to": {
+                "title": "Empfänger bearbeiten"
+            },
+            "item": {
+                "toast_edit_success": "Position gespeichert"
+            },
+            "item_add": "Position hinzufügen",
+            "saved_item_sorting": "Sortierung aktualisiert",
+            "title": "Angebot",
+            "toast_add_item_success": "Position hinzugefügt",
+            "toast_edit_footer_success": "Fußzeile gespeichert",
+            "toast_edit_note_success": "Notiz gespeichert",
+            "toast_edit_options_success": "Optionen gespeichert",
+            "toast_edit_summary_success": "Zusammenfassung gespeichert",
+            "toast_edit_terms_success": "Bedingungen gespeichert",
+            "toast_edit_to_success": "Gespeichert"
+        },
+        "quote_groups": {
+            "auto_reset_prefix_year": "Am 1. Januar auf 1 zurücksetzen",
+            "error_loading": "Fehler beim Laden der Angebotsgruppen... :(",
+            "expires_after_days": "Läuft ab nach Tagen",
+            "next_id": "Nächste #",
+            "prefix_year": "Jahrespräfix",
+            "public": "Angebote aus dieser Gruppe in Kontoprofilen anzeigen",
+            "title": "Angebotsgruppen",
+            "title_add": "Angebotsgruppe hinzufügen",
+            "title_edit": "Angebotsgruppe bearbeiten",
+            "toast_add_success": "Angebotsgruppe hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "quotes": {
+            "date": "Datum",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Angebot löschen möchten?",
+            "deleted": "Angebot gelöscht",
+            "edit_to": {
+                "custom_to": "Empfängeradresse manuell festlegen, Adresse nicht aus Unternehmen oder Konto kopieren"
+            },
+            "empty_list": "Es wurden noch keine Angebote erstellt",
+            "error_loading": "Fehler beim Laden der Angebote... :(",
+            "expiration": "Ablaufdatum",
+            "explanation": "Angebote verwalten",
+            "export": {
+                "btn_prepare_export": "Export vorbereiten",
+                "ready": {
+                    "explanation": "Ein Export wurde mit den folgenden Werten vorbereitet:",
+                    "title": "Export bereit"
+                },
+                "title": "Angebote exportieren"
+            },
+            "item_delete_confirm_msg": "Sind Sie sicher, dass Sie diese Position löschen möchten?",
+            "item_deleted": "Position gelöscht",
+            "quote_number": "Angebotsnummer",
+            "relation": "Beziehung",
+            "relation_address": "Adresse",
+            "relation_city": "Stadt",
+            "relation_company": "Unternehmen",
+            "relation_company_registration": "Registrierung",
+            "relation_company_tax_registration": "Steuerregistrierung",
+            "relation_contact_name": "Kontaktname",
+            "relation_country": "Land",
+            "relation_postcode": "Postleitzahl",
+            "status": {
+                "ACCEPTED": "Angenommen",
+                "ALL": "Alle",
+                "CANCELLED": "Storniert",
+                "DRAFT": "Entwurf",
+                "NOT_FOUND": "Nicht gefunden",
+                "REJECTED": "Abgelehnt",
+                "SENT": "Gesendet"
+            },
+            "summary": "Zusammenfassung",
+            "title": "Angebote"
+        },
+        "taxrates": {
+            "empty_archive": "Steuersatz-Archiv ist leer",
+            "empty_list": "Keine Steuersätze gefunden",
+            "error_loading": "Fehler beim Laden der Steuersätze :(",
+            "excluding": "Exklusive",
+            "explanation": "Steuersätze verwalten",
+            "including": "Inklusive",
+            "percentage": "Prozentsatz",
+            "rateType": "Steuersatztyp",
+            "title": "Steuersätze",
+            "title_add": "Steuersatz hinzufügen",
+            "title_edit": "Steuersatz bearbeiten",
+            "toast_add_success": "Steuersatz hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "taxrates_summary": {
+            "empty_list": "Keine Daten im ausgewählten Zeitraum gefunden",
+            "error_loading": "Fehler beim Laden der Steuerzusammenfassung... :(",
+            "explanation": "Steuerzusammenfassung für einen bestimmten Zeitraum",
+            "set_dates": "Daten festlegen",
+            "taxable_amount": "Steuerpflichtiger Betrag",
+            "title": "Steuerzusammenfassung"
+        },
+        "title": "Finanzen"
+    },
+    "genders": {
+        "female": "Weiblich",
+        "male": "Männlich",
+        "other": "Andere"
+    },
+    "general": {
+        "a": "ein",
+        "account": "Konto",
+        "actions": "Aktionen",
+        "active": "Aktiv",
+        "add": "Hinzufügen",
+        "add_to_group": "Zur Gruppe hinzufügen",
+        "added_to_group": "Zur Gruppe hinzugefügt",
+        "address": "Adresse",
+        "all": "Alle",
+        "all_accounts": "Alle Konten",
+        "amount": "Betrag",
+        "apply_to": "Anwenden auf",
+        "appointment": "Termin",
+        "appointment_category": "Terminkategorie",
+        "archive": "Archivieren",
+        "archived": "Ins Archiv verschoben",
+        "at": "um",
+        "attend": "Teilnehmen",
+        "attendance": "Anwesenheit",
+        "attending": "Teilnehmend",
+        "back": "Zurück",
+        "back_to": "Zurück zu",
+        "backend": "Backend",
+        "balance": "Kontostand",
+        "bio": "Biografie",
+        "book": "Buchen",
+        "booking_options": "Buchungsoptionen",
+        "booking_status": "Buchungsstatus",
+        "cancel": "Abbrechen",
+        "cancelled": "Storniert",
+        "category": "Kategorie",
+        "chart": "Diagramm",
+        "checkin": "Einchecken",
+        "city": "Stadt",
+        "class": "Kurs",
+        "classes": "Kurse",
+        "classes_remaining": "Verbleibende Kurse",
+        "classpass": "Kurspass",
+        "classpass_group": "Kurspass-Gruppe",
+        "classpasses": "Kurspässe",
+        "clear": "Löschen",
+        "clear_search": "Suche löschen",
+        "collection": "Sammlung",
+        "comments": "Kommentare",
+        "confirm_action_no": "Abbrechen",
+        "confirm_action_yes": "Fortfahren",
+        "confirm_archive": "Archivierung bestätigen",
+        "confirm_archive_no": "Nein, hier behalten",
+        "confirm_archive_yes": "Ja, archivieren",
+        "confirm_delete": "Löschen bestätigen",
+        "confirm_delete_no": "Abbrechen",
+        "confirm_delete_yes": "Löschen",
+        "confirm_unarchive": "Wiederherstellung bestätigen",
+        "confirm_unarchive_no": "Nein, hier behalten",
+        "confirm_unarchive_yes": "Ja, wiederherstellen",
+        "contact": "Kontakt",
+        "content": "Inhalt",
+        "costcenter": "Kostenstelle",
+        "country": "Land",
+        "created_at": "Erstellt am",
+        "credit": "Guthaben",
+        "credits": "Guthaben",
+        "credits_valid_for_class": "Guthaben am Kursdatum",
+        "current": "Aktuell",
+        "custom_file_input_inner_label": "Klicken Sie auf Durchsuchen, um eine Datei auszuwählen...",
+        "custom_file_input_label": "Datei auswählen",
+        "customer": "Kunde",
+        "customers": "Kunden",
+        "data": "Daten",
+        "date": "Datum",
+        "date_accepted": "Akzeptiert am Datum",
+        "date_end": "Enddatum",
+        "date_of_birth": "Geburtsdatum",
+        "date_purchased": "Kaufdatum",
+        "date_start": "Startdatum",
+        "deactivate": "Deaktivieren",
+        "delete": "Löschen",
+        "delete_from_group": "Aus Gruppe entfernen",
+        "deleted": "Gelöscht",
+        "deleted_from_group": "Aus Gruppe entfernt",
+        "description": "Beschreibung",
+        "details": "Details",
+        "discovery": "Entdeckung",
+        "display_public": "Öffentlich",
+        "document": "Dokument",
+        "document_type": "Dokumenttyp",
+        "download": "Herunterladen",
+        "dropin": "Spontanbesuch",
+        "duplicate": "Duplizieren",
+        "each": "Jede/r",
+        "edit": "Bearbeiten",
+        "edit_price": "Preis bearbeiten",
+        "education": "Ausbildung",
+        "email": "E-Mail",
+        "email_billing": "E-Mail Rechnung",
+        "email_contact": "E-Mail Kontakt",
+        "employee": "Mitarbeiter",
+        "employee2": "Mitarbeiter 2",
+        "employees": "Mitarbeiter",
+        "end": "Ende",
+        "ended": "Beendet",
+        "enroll": "Einschreiben",
+        "enrollments": "Einschreibungen",
+        "error_sad_smiley": "Fehler :(",
+        "error_try_refreshing": "Fehler: Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.",
+        "event": "Veranstaltung",
+        "event_tickets": "Veranstaltungstickets",
+        "events": "Veranstaltungen",
+        "expiration": "Ablauf",
+        "expired": "Abgelaufen",
+        "export": "Exportieren",
+        "filled": "Gefüllt",
+        "filter": "Filter",
+        "finance_invoice_group": "Rechnungsgruppe",
+        "finance_quote_group": "Angebotsgruppe",
+        "first_month": "Erster Monat",
+        "first_name": "Vorname",
+        "footer": "Fußzeile",
+        "frequency": "Häufigkeit",
+        "friday": "Freitag",
+        "from": "Von",
+        "gender": "Geschlecht",
+        "generated on": "Generiert am",
+        "glaccount": "Hauptbuchkonto",
+        "glaccount_short": "HB-Konto",
+        "groups": "Gruppen",
+        "holiday": "Feiertag",
+        "i_agree": "Ich stimme zu",
+        "included": "Inbegriffen",
+        "info": "Info",
+        "infoMailContent": "Info-Mail-Inhalt",
+        "info_mail": "Info-Mail",
+        "injury": "Verletzung",
+        "instructor": "Kursleiter",
+        "instructor2": "Kursleiter 2",
+        "instructor_2": "Kursleiter 2",
+        "instructor_role": "Kursleiterrolle",
+        "instructor_role2": "Kursleiterrolle 2",
+        "instructors": "Kursleiter",
+        "instructors_available": "Verfügbare Kursleiter",
+        "invoice": "Rechnung",
+        "invoices": "Rechnungen",
+        "item": "Artikel",
+        "items": "Artikel",
+        "key_number": "Türschlüsselnummer",
+        "language": "Sprache",
+        "last_login": "Letzte Anmeldung",
+        "last_name": "Nachname",
+        "level": "Stufe",
+        "license": "Lizenz",
+        "license_info": "Lizenzinfo",
+        "line": "Zeile",
+        "load_more": "Mehr laden",
+        "loaded_all": "Alle Elemente werden angezeigt",
+        "loading_with_dots": "Lädt...",
+        "location": "Standort",
+        "login": "Anmelden",
+        "logout": "Abmelden",
+        "mailing_list": "Mailingliste",
+        "manage": "Verwalten",
+        "membership": "Mitgliedschaft",
+        "membership_not_required": "Mitgliedschaft nicht erforderlich",
+        "memberships": "Mitgliedschaften",
+        "menu": "Menü",
+        "min_duration": "Mindestdauer",
+        "mobile": "Mobiltelefon",
+        "monday": "Montag",
+        "month": "Monat",
+        "monthly": "Monatlich",
+        "months": "Monate",
+        "name": "Name",
+        "new_task": "Neue Aufgabe",
+        "no": "Nein",
+        "no_change": "Keine Änderung",
+        "not_public": "Nicht öffentlich",
+        "note": "Notiz",
+        "once": "Einmal",
+        "options": "Optionen",
+        "order": "Bestellung",
+        "other": "Andere",
+        "paid": "Bezahlt",
+        "password": "Passwort",
+        "payment": "Zahlung",
+        "payment_method": "Zahlungsmethode",
+        "payments": "Zahlungen",
+        "pdf": "PDF",
+        "percentage": "Prozentsatz",
+        "period": "Zeitraum",
+        "phone": "Telefon",
+        "phone2": "Telefon 2",
+        "please_select": "Bitte auswählen...",
+        "please_select_a_file": "Bitte wählen Sie eine Datei aus",
+        "please_wait": "Bitte warten...",
+        "postcode": "Postleitzahl",
+        "prefix": "Präfix",
+        "preview": "Vorschau",
+        "price": "Preis",
+        "prices_for": "Preise für",
+        "priority": "Priorität",
+        "privacy_policy": "Datenschutzerklärung",
+        "product": "Produkt",
+        "products": "Produkte",
+        "public": "Öffentlich",
+        "quantity": "Menge",
+        "quantity_short_and_price": "Menge & Preis",
+        "quickStatsAmount": "Schnellstatistik-Betrag",
+        "registration_fee": "Anmeldegebühr",
+        "reset_filter": "Filter zurücksetzen",
+        "restore": "Wiederherstellen",
+        "revenue": "Umsatz",
+        "role": "Rolle",
+        "room": "Raum",
+        "rooms": "Räume",
+        "run_task": "Aufgabe ausführen",
+        "saturday": "Samstag",
+        "search_account_not_found": "Konto nicht gefunden",
+        "search_no_account_results": "Die Suche hat keine Ergebnisse zurückgegeben",
+        "search_no_classes_found": "Keine Kurse wurden am angegebenen Datum gefunden",
+        "search_results": "Suchergebnisse",
+        "sell": "Verkaufen",
+        "settings": "Einstellungen",
+        "shift": "Schicht",
+        "shop": "Shop",
+        "sign_in": "Anmelden",
+        "sold_out": "Ausverkauft",
+        "sort_order": "Sortierreihenfolge",
+        "spaces": "Plätze",
+        "start": "Start",
+        "status": "Status",
+        "subject": "Betreff",
+        "submit": "Speichern",
+        "subscription": "Abonnement",
+        "subscription_group": "Abonnementgruppe",
+        "subscription_month": "Abonnementmonat",
+        "subscription_unit": "Abonnementeinheit",
+        "subscription_year": "Abonnementjahr",
+        "subscriptions": "Abonnements",
+        "subtotal": "Zwischensumme",
+        "summary": "Zusammenfassung",
+        "sunday": "Sonntag",
+        "supplier": "Lieferant",
+        "tagline": "Slogan",
+        "tax": "Steuer",
+        "taxrate": "Steuersatz",
+        "terms": "Bedingungen",
+        "terms_and_conditions": "Allgemeine Geschäftsbedingungen",
+        "thursday": "Donnerstag",
+        "ticket": "Ticket",
+        "time": "Zeit",
+        "time_end": "Endzeit",
+        "time_start": "Startzeit",
+        "title": "Titel",
+        "to": "Bis",
+        "toast_server_error": "",
+        "today": "Heute",
+        "tools": "Werkzeuge",
+        "total": "Gesamt",
+        "trial": "Probezeit",
+        "tuesday": "Dienstag",
+        "unarchive": "Wiederherstellen",
+        "unarchive_to_edit": "Zum Bearbeiten wiederherstellen",
+        "unarchived": "In Aktuell verschoben",
+        "uncancel": "Stornierung aufheben",
+        "unknown_document_type": "Unbekannter Dokumenttyp",
+        "unlimited": "Unbegrenzt",
+        "using": "mit",
+        "valid_for": "gültig für",
+        "valid_until": "Gültig bis",
+        "validity": "Gültigkeit",
+        "validity_unit": "Gültigkeitsdauer in",
+        "version": "Version",
+        "view": "Ansehen",
+        "vip": "VIP",
+        "wednesday": "Mittwoch",
+        "week": "Woche",
+        "welcome": "Willkommen",
+        "year": "Jahr",
+        "yes": "Ja"
+    },
+    "goto": {
+        "title": "Gehe zu"
+    },
+    "home": {
+        "home": {
+            "announcements": {
+                "error_loading": "Fehler beim Laden der Ankündigungen... :("
+            },
+            "announcements_empty_list": "Derzeit keine Ankündigungen anzuzeigen. Bitte schauen Sie später noch einmal vorbei."
+        },
+        "title": "Startseite"
+    },
+    "insight": {
+        "classpasses": {
+            "active": {
+                "export_excel": "Aktive als Excel exportieren"
+            },
+            "explanation": "Bericht über verkaufte und aktive Kurspässe",
+            "sold": {
+                "export_excel": "Verkaufte als Excel exportieren"
+            },
+            "title": "Kurspässe"
+        },
+        "home": {
+            "accounts": {
+                "title": "Konten"
+            },
+            "finance": {
+                "title": "Finanzen"
+            },
+            "link_view": "Ansehen",
+            "products": {
+                "title": "Produkte"
+            },
+            "schedule": {
+                "title": "Zeitplan"
+            }
+        },
+        "inactive_accounts": {
+            "accounts": {
+                "count_will_be_deleted": "Konten werden gelöscht",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie die gemeldeten inaktiven Konten entfernen möchten?",
+                "deleted": "Inaktive Konten werden in Kürze gelöscht",
+                "empty_list": "Es wurden keine inaktiven Konten gefunden"
+            },
+            "btn_view_inactive_accounts": "Inaktive Konten anzeigen",
+            "card_title": "Konten ohne Aktivität nach",
+            "count_deleted_inactive_accounts": "Inaktive Konten gelöscht",
+            "count_inactive_accounts": "Inaktive Konten gefunden",
+            "created_at": "Erstellt am",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Bericht über inaktive Konten löschen möchten?",
+            "deleted": "Bericht über inaktive Konten gelöscht. (Konten wurden nicht gelöscht).",
+            "empty_list": "Es wurden noch keine Berichte über inaktive Konten erstellt",
+            "error_loading": "Fehler beim Laden der Berichte über inaktive Konten :(",
+            "explanation": "Finden und optional Bereinigen von Konten, die nach einem bestimmten Datum inaktiv sind.",
+            "explanation_when_inactive": "Ein Konto gilt als inaktiv, wenn nach dem angegebenen Datum keine Anmeldungen oder Aktivitäten im Zusammenhang mit dem Konto erfolgt sind.",
+            "no_activity_after_date": "Keine Aktivität nach Datum",
+            "title": "Berichte über inaktive Konten",
+            "title_add": "Bericht über inaktive Konten erstellen",
+            "toast_add_success": "Neuen Bericht über inaktive Konten hinzugefügt. Bitte aktualisieren Sie die Seite in Kürze, um die inaktiven Konten anzuzeigen."
+        },
+        "instructor_classes_month": {
+            "explanation": "Bericht über Kurse von Kursleitern in einem bestimmten Monat",
+            "find_classes": "Kurse finden",
+            "title": "Kursleiter-Kurse im Monat"
+        },
+        "invoicesopenondate": {
+            "amount_paid_on": "Bezahlter Betrag am",
+            "empty_list": "Keine offenen Rechnungen wurden am angegebenen Datum gefunden",
+            "error_loading": "Fehler beim Laden der offenen Rechnungen... :(",
+            "explanation": "Zeigt Rechnungen an, die an einem bestimmten Datum nicht bezahlt oder erstattet wurden.",
+            "generate_report": "Bericht erstellen",
+            "invoice_date": "Rechnungsdatum",
+            "relation": "Beziehung",
+            "title": "Offene Rechnungen am Datum"
+        },
+        "keynumbers_wo_subscription": {
+            "empty_list": "Es wurden keine Konten mit einem Abonnement und ohne Schlüsselnummer gefunden",
+            "explanation": "Konten mit einem Abonnement, bei denen keine Schlüsselnummer festgelegt ist",
+            "title": "Abonnenten ohne Schlüsselnummer"
+        },
+        "revenue": {
+            "explanation": "Umsatzdiagramme. Gesamt und nach Produkttyp.",
+            "title": "Umsatz",
+            "total": {
+                "explanation": "Monatliche Gesamtsumme basierend auf Rechnungsbeträgen. Rechnungen mit dem Status 'storniert' oder 'Entwurf' werden nicht gezählt."
+            }
+        },
+        "subscriptions": {
+            "active": {
+                "export_excel": "Aktive als Excel exportieren"
+            },
+            "blocked": {
+                "export_excel": "Gesperrte als Excel exportieren"
+            },
+            "explanation": "Bericht über verkaufte und aktive Abonnements",
+            "paused": {
+                "export_excel": "Pausierte als Excel exportieren"
+            },
+            "sold": {
+                "export_excel": "Verkaufte als Excel exportieren"
+            },
+            "stopped": {
+                "export_excel": "Beendete als Excel exportieren"
+            },
+            "title": "Abonnements"
+        },
+        "title": "Einblick",
+        "trialpasses": {
+            "empty_list": "Keine Probepässe in diesem Monat gefunden.",
+            "explanation": "Bericht über Probepässe und Folgekäufe",
+            "set_month": "Monat festlegen",
+            "title": "Probepässe"
+        }
+    },
+	"organization": {
+        "announcements": {
+            "content": "Ankündigungstext",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Ankündigung löschen möchten?",
+            "deleted": "Ankündigung gelöscht",
+            "display_backend": "Im Backend-Startbildschirm anzeigen",
+            "display_public": "Ankündigung anzeigen",
+            "display_shop": "Im Shop-Startbildschirm anzeigen",
+            "empty_list": "Es wurden noch keine Ankündigungen erstellt.",
+            "error_loading": "Fehler beim Laden der Ankündigungen... :(",
+            "explanation": "Shop & Backend-Ankündigungen",
+            "title": "Ankündigungen",
+            "title_add": "Ankündigung hinzufügen",
+            "title_edit": "Ankündigung bearbeiten",
+            "toast_add_success": "Ankündigung hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "appointment_categories": {
+            "add": "Terminkategorie hinzufügen",
+            "empty_archive": "Es wurden noch keine Terminkategorien archiviert",
+            "empty_list": "Keine Terminkategorien gefunden",
+            "error_loading": "Fehler beim Laden der Terminkategorien :(",
+            "title": "Terminkategorien",
+            "title_add": "Terminkategorie hinzufügen",
+            "title_edit": "Terminkategorie bearbeiten",
+            "toast_add_success": "Terminkategorie hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "appointment_category": {
+            "public": "Dies ist eine öffentliche Terminkategorie"
+        },
+        "appointment_prices": {
+            "add": "Terminpreis hinzufügen",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie den Preis für diesen Kursleiter löschen möchten?",
+            "deleted": "Terminpreis gelöscht",
+            "empty_list": "Für diesen Termin wurden keine Preise festgelegt",
+            "error_loading": "Fehler beim Laden der Preise für diesen Termin :(",
+            "title": "Terminpreise",
+            "title_add": "Terminpreis hinzufügen",
+            "title_edit": "Terminpreis bearbeiten",
+            "toast_add_success": "Terminpreis hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "appointments": {
+            "add": "Termin hinzufügen",
+            "empty_archive": "In dieser Kategorie wurden noch keine Termine archiviert",
+            "empty_list": "In dieser Kategorie wurden noch keine Termine definiert.",
+            "error_loading": "Fehler beim Laden der Termine :(",
+            "instructor_prices": "Kursleiterpreise",
+            "public": "Dies ist ein öffentlicher Termin",
+            "title": "Termine",
+            "title_add": "Termin hinzufügen",
+            "title_edit": "Termin bearbeiten",
+            "toast_add_success": "Termin hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "branding": {
+            "color_accent": "Akzent",
+            "color_background": "Hintergrund",
+            "color_secondary": "Sekundär",
+            "color_text": "Text",
+            "colors_explanation": "Branding-Farben werden in Angebots- und Rechnungsvorlagen verwendet",
+            "link_change": "Ändern",
+            "logo_email": "Logo E-Mail",
+            "logo_invoice": "Logo Rechnung",
+            "logo_login": "Logo Login",
+            "logo_self_checkin": "Logo Selbst-Check-in",
+            "logo_shop_header": "Logo Shop-Header",
+            "title_colors": "Branding-Farben",
+            "toast_edit_success": "Gespeichert",
+            "toast_save_colors_success": "Farben gespeichert"
+        },
+        "classpass": {
+            "public": "Dies ist ein öffentlicher Pass",
+            "shop": "Diesen Pass im Shop anzeigen",
+            "trial_pass": "Probepass"
+        },
+        "classpass_group_classpasses": {
+            "title_edit": "Pässe in Gruppe bearbeiten"
+        },
+        "classpass_groups": {
+            "add": "Kurspass-Gruppe hinzufügen",
+            "empty_list": "Keine Kurspass-Gruppen gefunden",
+            "error_loading": "Fehler beim Laden der Kurspass-Gruppen :(",
+            "title": "Kurspass-Gruppen",
+            "title_add": "Kurspass-Gruppe hinzufügen",
+            "title_edit": "Kurspass-Gruppe bearbeiten",
+            "toast_add_success": "Kurspass-Gruppe hinzugefügt",
+            "toast_creating_might_take_a_while": "Das Erstellen einer neuen Kurspass-Gruppe kann einige Minuten dauern, wenn eine große Anzahl von Kursen definiert ist.",
+            "toast_edit_success": "Kurspass-Gruppe gespeichert"
+        },
+        "classpasses": {
+            "empty_archive": "Kurspass-Archiv ist leer",
+            "empty_list": "Keine Kurspässe gefunden",
+            "error_loading": "Fehler beim Laden der Kurspässe :(",
+            "explanation": "Eine bestimmte Anzahl oder unbegrenzte Kurse innerhalb einer festgelegten Zeit für einen bestimmten Preis",
+            "groups": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Gruppe löschen möchten?",
+                "deleted": "Gruppe gelöscht",
+                "edit_passes": "Pässe in Gruppe"
+            },
+            "title": "Kurspässe",
+            "title_add": "Kurspass hinzufügen",
+            "title_edit": "Kurspass bearbeiten",
+            "toast_add_success": "Kurspass hinzugefügt",
+            "toast_edit_success": "Kurspass gespeichert",
+            "trial_pass": "Probepass"
+        },
+        "classtype": {
+            "public": "Dies ist ein öffentlicher Kurstyp",
+            "url_website": "Link zur Beschreibung auf der Website"
+        },
+        "classtypes": {
+            "edit_image": "Kurstyp-Bild bearbeiten",
+            "empty_archive": "Kurstypen-Archiv ist leer",
+            "empty_list": "Keine Kurstypen gefunden",
+            "error_loading": "Fehler beim Laden der Kurstypen :(",
+            "explanation": "Verfügbare Kurstypen im Zeitplan verwalten",
+            "title": "Kurstypen",
+            "title_add": "Kurstyp hinzufügen",
+            "title_edit": "Kurstyp bearbeiten",
+            "toast_add_success": "Kurstyp hinzugefügt",
+            "toast_edit_success": "Kurstyp gespeichert"
+        },
+        "discoveries": {
+            "empty_archive": "Entdeckungstypen-Archiv ist leer",
+            "empty_list": "Keine Entdeckungstypen gefunden",
+            "error_loading": "Fehler beim Laden der Entdeckungstypen :(",
+            "explanation": "Wie Menschen diese Organisation gefunden haben",
+            "title": "Entdeckung",
+            "title_add": "Entdeckungstyp hinzufügen",
+            "title_edit": "Entdeckungstyp bearbeiten",
+            "toast_add_success": "Entdeckungstyp gespeichert",
+            "toast_edit_success": "Entdeckungstyp gespeichert"
+        },
+        "documents": {
+            "add": "Dokument hinzufügen",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Dokument löschen möchten?",
+            "deleted": "Dokument gelöscht",
+            "edit": "Dokument bearbeiten",
+            "empty_list": "Es wurden noch keine AGB-Dokumente hochgeladen.",
+            "error_loading": "Fehler beim Laden der Dokumente :(",
+            "explanation": "Geschäftsbedingungen & Datenschutzrichtlinie",
+            "title": "Dokumente",
+            "toast_add_success": "Dokument hinzugefügt",
+            "toast_edit_success": "Dokument gespeichert"
+        },
+        "holiday": {
+            "locations": {
+                "add_to_holiday": "Zum Feiertag hinzufügen",
+                "added_to_holiday": "Feiertagsorte gespeichert",
+                "delete_from_holiday": "Vom Feiertag entfernen",
+                "deleted_from_holiday": "Feiertagsorte gespeichert"
+            }
+        },
+        "holidays": {
+            "empty_list": "Es wurden noch keine Feiertage definiert.",
+            "error_loading": "Fehler beim Laden der Feiertage... :(",
+            "explanation": "Alle Kurse an ausgewählten Orten während eines bestimmten Zeitraums stornieren",
+            "holiday_delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Feiertag löschen möchten?",
+            "locations": {
+                "title_edit": "Orte bearbeiten"
+            },
+            "payment_deleted": "Feiertag gelöscht",
+            "title": "Feiertage",
+            "title_add": "Feiertag hinzufügen",
+            "title_edit": "Feiertag bearbeiten",
+            "toast_add_success": "Feiertag hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "home": {
+            "about": {
+                "title": "Über"
+            },
+            "accounts": {
+                "title": "Beziehungen"
+            },
+            "products": {
+                "title": "Produkte"
+            },
+            "scheduling": {
+                "title": "Terminplanung"
+            },
+            "title": "Startseite",
+            "upcoming_classes": {
+                "title": "Bevorstehende Kurse"
+            }
+        },
+        "languages": {
+            "empty_archive": "Es wurden noch keine Sprachen archiviert.",
+            "empty_list": "Es wurden noch keine Sprachen definiert.",
+            "error_loading": "Fehler beim Laden der Sprachen :(",
+            "explanation": "Kontaktsprachen für Konten",
+            "title": "Sprachen",
+            "title_add": "Sprache hinzufügen",
+            "title_edit": "Sprache bearbeiten",
+            "toast_add_success": "Sprache hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "levels": {
+            "add": "Level hinzufügen",
+            "empty_archive": "Level-Archiv ist leer",
+            "empty_list": "Keine Level gefunden",
+            "error_loading": "Fehler beim Laden der Level :(",
+            "explanation": "Verfügbare Kurslevel im Zeitplan",
+            "title": "Level",
+            "title_add": "Level hinzufügen",
+            "title_edit": "Level bearbeiten",
+            "toast_add_success": "Level hinzugefügt",
+            "toast_edit_success": "Level gespeichert"
+        },
+        "location": {
+            "public": "Dies ist ein öffentlicher Ort"
+        },
+        "location_room": {
+            "public": "Dies ist ein öffentlicher Raum"
+        },
+        "location_rooms": {
+            "empty_archive": "Für diesen Ort wurden noch keine Räume archiviert",
+            "empty_list": "Keine Räume für diesen Ort gefunden",
+            "error_loading": "Fehler beim Laden der Räume :(",
+            "title": "Ortsräume",
+            "title_add": "Raum zu diesem Ort hinzufügen",
+            "title_edit": "Raum bearbeiten",
+            "toast_add_success": "Raum hinzugefügt",
+            "toast_edit_success": "Raum gespeichert"
+        },
+        "locations": {
+            "empty_archive": "Orte-Archiv ist leer",
+            "empty_list": "Keine Orte gefunden",
+            "error_loading": "Fehler beim Laden der Orte :(",
+            "explanation": "Orte & Räume an diesen Orten",
+            "title": "Orte",
+            "title_add": "Ort hinzufügen",
+            "title_edit": "Ort bearbeiten",
+            "toast_add_success": "Ort hinzugefügt",
+            "toast_edit_success": "Ort gespeichert"
+        },
+        "membership": {
+            "public": "Dies ist eine öffentliche Mitgliedschaft",
+            "shop": "Diese Mitgliedschaft im Shop anzeigen"
+        },
+        "memberships": {
+            "add": "Mitgliedschaft hinzufügen",
+            "empty_archive": "Mitgliedschaften-Archiv ist leer",
+            "empty_list": "Keine Mitgliedschaften gefunden",
+            "error_loading": "Fehler beim Laden der Mitgliedschaften :(",
+            "title": "Mitgliedschaften",
+            "title_add": "Mitgliedschaft hinzufügen",
+            "title_edit": "Mitgliedschaft bearbeiten",
+            "toast_add_success": "Mitgliedschaft hinzugefügt",
+            "toast_edit_success": "Mitgliedschaft gespeichert"
+        },
+        "organization": {
+            "branding": {
+                "explanation": "Logos für Ihre Organisation festlegen",
+                "title": "Branding"
+            },
+            "explanation": "Adresse & Kontaktinformationen festlegen",
+            "registration": "Registrierungs-ID",
+            "tax_registration": "Steuerregistrierungs-ID",
+            "title": "Organisation",
+            "title_edit": "Organisation",
+            "toast_edit_success": "Organisation gespeichert"
+        },
+        "products": {
+            "add": "Produkt hinzufügen",
+            "archive_confirm_msg": "Dieses Produkt archivieren?",
+            "edit": "Produkt bearbeiten",
+            "empty_archive": "Es wurden noch keine Produkte archiviert",
+            "empty_list": "Es wurden noch keine Produkte definiert",
+            "error_loading": "Fehler beim Laden der Produkte... :(",
+            "explanation": "Schnell eine Rechnung für Artikel im Produktkatalog erstellen",
+            "title": "Produkte",
+            "toast_add_success": "Produkt hinzugefügt",
+            "toast_edit_success": "Gespeichert",
+            "unarchive_confirm_msg": "Dieses Produkt aus dem Archiv holen?"
+        },
+        "shifts": {
+            "empty_archive": "Es wurden noch keine Schichten archiviert",
+            "empty_list": "Es wurden noch keine Schichten erstellt.",
+            "error_loading": "Fehler beim Laden der Schichten... :(",
+            "explanation": "Schichttypen, die im Personalplan verfügbar sind",
+            "title": "Personalschichten",
+            "title_add": "Schicht hinzufügen",
+            "title_edit": "Schicht bearbeiten",
+            "toast_add_success": "Schicht hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "subscription": {
+            "public": "Dies ist ein öffentliches Abonnement",
+            "shop": "Dieses Abonnement im Shop anzeigen"
+        },
+        "subscription_group_subscriptions": {
+            "title_edit": "Abonnements in Gruppe bearbeiten"
+        },
+        "subscription_groups": {
+            "empty_list": "Keine Abonnementgruppen gefunden",
+            "error_loading": "Fehler beim Laden der Abonnementgruppen :(",
+            "title": "Abonnementgruppen",
+            "title_add": "Abonnementgruppe hinzufügen",
+            "title_edit": "Abonnementgruppe bearbeiten",
+            "toast_add_success": "Abonnementgruppe hinzugefügt",
+            "toast_creating_might_take_a_while": "Das Erstellen einer neuen Abonnementgruppe kann einige Minuten dauern, wenn eine große Anzahl von Kursen definiert ist.",
+            "toast_edit_success": "Abonnementgruppe gespeichert"
+        },
+        "subscription_prices": {
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Preis löschen möchten?",
+            "deleted": "Abonnementpreis gelöscht",
+            "empty_list": "Keine Abonnementpreise gefunden",
+            "error_loading": "Fehler beim Laden der Abonnementpreise :(",
+            "title": "Abonnementpreise",
+            "title_add": "Abonnementpreis hinzufügen",
+            "title_edit": "Abonnementpreis bearbeiten",
+            "toast_add_success": "Abonnementpreis hinzugefügt",
+            "toast_edit_success": "Abonnementpreis gespeichert"
+        },
+        "subscriptions": {
+            "credit_validity": "Guthabengültigkeit in Tagen",
+            "empty_archive": "Es wurden noch keine Abonnements archiviert",
+            "empty_list": "Keine Abonnements gefunden",
+            "error_loading": "Fehler beim Laden der Abonnements :(",
+            "explanation": "Eine bestimmte Anzahl oder unbegrenzte Kurse für eine monatliche Gebühr",
+            "groups": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Abonnementgruppe löschen möchten?",
+                "deleted": "Abonnementgruppe gelöscht",
+                "edit_subscriptions": "Abonnements in Gruppe"
+            },
+            "reconciliation_classes": "Vorab-Guthaben",
+            "title": "Abonnements",
+            "title_add": "Abonnement hinzufügen",
+            "title_edit": "Abonnement bearbeiten",
+            "toast_add_success": "Abonnement hinzugefügt",
+            "toast_edit_success": "Abonnement gespeichert"
+        },
+        "title": "Organisation"
+    },
+    "relations": {
+        "account": {
+            "accepted_documents": {
+                "accepted_from_address": "Von Adresse akzeptiert",
+                "empty_list": "Dieser Kunde hat noch keine Dokumente akzeptiert",
+                "title": "Akzeptierte Dokumente"
+            },
+            "bank_accounts": {
+                "bic": "BIC",
+                "holder": "Kontoinhaber",
+                "mandates": {
+                    "add": "Mandat hinzufügen",
+                    "content": "Inhalt",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Mandat löschen möchten?",
+                    "deleted": "Mandat gelöscht",
+                    "reference": "Referenz",
+                    "reference_placeholder": "Falls leer gelassen, wird eine eindeutige Referenz generiert.",
+                    "signature_date": "Unterzeichnet am",
+                    "title": "Lastschriftmandate",
+                    "title_add": "Mandat hinzufügen",
+                    "title_edit": "Mandat bearbeiten",
+                    "toast_add_success": "Mandat hinzugefügt",
+                    "toast_edit_success": "Gespeichert"
+                },
+                "number": "Kontonummer / IBAN",
+                "title": "Bankkonto",
+                "toast_edit_success": "Gespeichert"
+            },
+            "classes": {
+                "empty_list": "Dieser Kunde hat noch keine Kurse gebucht oder besucht",
+                "title": "Kursteilnahme",
+                "title_add_search_class": "Wählen Sie ein Datum und einen Kurs, um eine neue Kursteilnahme zu registrieren"
+            },
+            "classpasses": {
+                "add": "Kurspass hinzufügen",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Kurspass und alle zugehörigen Daten löschen möchten?",
+                "deleted": "Kurspass gelöscht",
+                "empty_list": "Dieser Kunde hat noch keine Kurspässe.",
+                "no_classes_taken_yet": "Noch keine Kurse mit diesem Pass besucht",
+                "title": "Kurspässe",
+                "title_add": "Kurspass hinzufügen",
+                "title_classes": "Besuchte Kurse mit",
+                "title_edit": "Kurspass bearbeiten",
+                "toast_add_success": "Kurspass hinzugefügt",
+                "toast_edit_success": "Kurspass gespeichert"
+            },
+            "documents": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Dokument löschen möchten?",
+                "deleted": "Dokument gelöscht",
+                "empty_list": "Für diesen Kunden wurden noch keine Dokumente hochgeladen",
+                "title": "Dokumente",
+                "title_add": "Dokument hinzufügen",
+                "title_edit": "Dokument bearbeiten",
+                "toast_add_success": "Dokument hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "enrollments": {
+                "dateEnd": "Enddatum",
+                "dateStart": "Startdatum",
+                "empty_list": "Für dieses Konto wurden noch keine Anmeldungen erstellt",
+                "title": "Kursanmeldungen",
+                "title_add_search_class": "Wählen Sie ein Datum und einen Kurs, um eine neue Anmeldung zu erstellen",
+                "title_edit": "Anmeldung bearbeiten"
+            },
+            "error_loading": "Fehler beim Laden der Kontoinformationen... :(",
+            "event_tickets": {
+                "empty_list": "Dieser Kunde hat noch keine Veranstaltungen besucht",
+                "title": "Veranstaltungstickets"
+            },
+            "finance_payment_batch_category_items": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Batch-Eintrag löschen möchten?",
+                "deleted": "Batch-Eintrag gelöscht",
+                "empty_list": "Für dieses Konto wurden noch keine Batch-Kategorie-Einträge erstellt",
+                "error_loading": "Fehler beim Laden des Zahlungs-Batch-Eintrags...",
+                "title": "Zahlungs-Batch-Einträge",
+                "title_add": "Batch-Eintrag hinzufügen",
+                "title_edit": "Batch-Eintrag bearbeiten",
+                "toast_add_success": "Batch-Eintrag hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "instructor_profile": {
+                "appointments": "Unterrichtet Termine",
+                "classes": "Unterrichtet Kurse",
+                "events": "Unterrichtet Veranstaltungen",
+                "title": "Kursleiterprofil",
+                "toast_edit_success": "Gespeichert",
+                "url_bio": "Link zur Biografie",
+                "url_website": "Webseite"
+            },
+            "invoices": {
+                "empty_list": "Für dieses Konto wurden noch keine Rechnungen erstellt.",
+                "is_the_default_billing_address_for_this_account": "Ist die Standard-Rechnungsadresse für dieses Konto. Die Rechnungsadresse kann nach der Erstellung geändert werden.",
+                "title": "Rechnungen",
+                "title_add": "Rechnung hinzufügen",
+                "toast_title_add": "Rechnung hinzugefügt"
+            },
+            "memberships": {
+                "add": "Mitgliedschaft hinzufügen",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Mitgliedschaft und alle zugehörigen Daten löschen möchten?",
+                "deleted": "Mitgliedschaft gelöscht",
+                "title": "Mitgliedschaften",
+                "title_add": "Mitgliedschaft hinzufügen",
+                "title_edit": "Mitgliedschaft bearbeiten",
+                "toast_add_success": "Mitgliedschaft hinzugefügt",
+                "toast_edit_success": "Mitgliedschaft gespeichert"
+            },
+            "notes": {
+                "backoffice": "Backoffice",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Notiz löschen möchten?",
+                "deleted": "Notiz gelöscht",
+                "instructors": "Kursleiter",
+                "title": "Notizen",
+                "title_add": "Notiz hinzufügen",
+                "title_edit": "Notiz bearbeiten",
+                "toast_add_success": "Notiz hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "orders": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Bestellung löschen möchten?",
+                "delete_success": "Bestellung gelöscht",
+                "empty_list": "Noch keine Bestellungen aufgegeben...",
+                "title": "Bestellungen"
+            },
+            "products": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Produkt von diesem Konto entfernen möchten?",
+                "deleted": "Produkt entfernt",
+                "empty_list": "Dieser Kunde hat noch keine Produkte gekauft",
+                "title": "Produkte",
+                "title_add": "Wählen Sie ein Produkt zum Hinzufügen",
+                "toast_add_success": "Produkt hinzugefügt"
+            },
+            "quotes": {
+                "empty_list": "Für dieses Konto wurden noch keine Angebote erstellt",
+                "title": "Angebote",
+                "title_add": "Angebot hinzufügen"
+            },
+            "subscriptions": {
+                "alt_prices": {
+                    "add": "Alt. Preis hinzufügen",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen alt. Preis löschen möchten?",
+                    "delete_success": "Alt. Preis gelöscht",
+                    "edit": "Alt. Preis bearbeiten",
+                    "empty_list": "Für dieses Abonnement wurden keine alternativen Preise definiert.",
+                    "toast_add_success": "Alt. Preis hinzugefügt",
+                    "toast_edit_success": "Gespeichert"
+                },
+                "blocks": {
+                    "add": "Sperrung hinzufügen",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie diese gesperrte Periode löschen möchten?",
+                    "delete_success": "Gesperrte Periode gelöscht",
+                    "edit": "Sperrung bearbeiten",
+                    "empty_list": "Dieses Abonnement wurde noch nicht gesperrt.",
+                    "toast_add_success": "Sperrung hinzugefügt",
+                    "toast_edit_success": "Gespeichert"
+                },
+                "credits": {
+                    "add": "Guthaben-Änderung hinzufügen",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Guthaben-Änderung löschen möchten?",
+                    "delete_success": "Guthaben-Änderung gelöscht",
+                    "edit": "Guthaben-Änderung bearbeiten",
+                    "empty_list": "Dieses Abonnement hatte noch keine Guthaben-Änderungen.",
+                    "toast_add_success": "Guthaben-Änderung hinzugefügt",
+                    "toast_edit_success": "Gespeichert",
+                    "unlimited": "Dieses Abonnement hat unbegrenzte Guthaben."
+                },
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Abonnement und alle zugehörigen Daten löschen möchten?",
+                "deleted": "Abonnement gelöscht",
+                "empty_list": "Dieses Konto hat noch keine Abonnements.",
+                "invoices": {
+                    "add": "Rechnung hinzufügen",
+                    "empty_list": "Für dieses Abonnement wurden noch keine Rechnungen erstellt",
+                    "toast_add_success": "Rechnung hinzugefügt",
+                    "toast_you_are_now_editing": "Sie bearbeiten jetzt die hinzugefügte Rechnung"
+                },
+                "menu": {
+                    "alt_prices": "Alt. Preise",
+                    "blocks": "Sperrungen",
+                    "credits": "Guthaben",
+                    "general": "Allgemein",
+                    "invoices": "Rechnungen",
+                    "pauses": "Pausen"
+                },
+                "pauses": {
+                    "add": "Pause hinzufügen",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Pause löschen möchten?",
+                    "delete_success": "Pause gelöscht",
+                    "edit": "Pause bearbeiten",
+                    "empty_list": "Dieses Abonnement wurde noch nicht pausiert.",
+                    "title_list": "Pausen",
+                    "toast_add_success": "Pause hinzugefügt",
+                    "toast_edit_success": "Gespeichert"
+                },
+                "registration_fee_paid": "Anmeldegebühr bezahlt",
+                "title": "Abonnements",
+                "title_add": "Abonnement hinzufügen",
+                "title_edit": "Abonnement bearbeiten",
+                "toast_add_success": "Abonnement hinzugefügt",
+                "toast_edit_success": "Abonnement gespeichert"
+            },
+            "tools": {
+                "title": "Werkzeuge"
+            }
+        },
+        "accounts": {
+            "deactivated": "Konto in gelöscht verschoben",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Konto und alle zugehörigen Daten löschen möchten?",
+            "deleted": "Konto gelöscht",
+            "emergency": "Notfall",
+            "empty_archive": "Keine Konten gefunden. Es wurden noch keine Konten gelöscht oder die Suche ergab kein Ergebnis.",
+            "empty_list": "Keine Konten gefunden. Es gibt keine aktiven Konten oder die Suche ergab kein Ergebnis.",
+            "error_loading": "Fehler beim Laden der Konten :(",
+            "explanation": "Kunden-, Kursleiter- und Mitarbeiterkonten",
+            "invoice_to_account": "Rechnung an Konto",
+            "invoice_to_business": "Rechnung an dieses Konto oder ein Unternehmen",
+            "mollie_customer_id": "Mollie Kunden-ID",
+            "profile": "Profil",
+            "profile_image": "Profilbild",
+            "quote_to_account": "Angebot an Konto",
+            "quote_to_business": "Angebot an Unternehmen oder an dieses Konto",
+            "restored": "Konto wiederhergestellt",
+            "set_mollie_customer_id": "Mollie Kunden-ID festlegen",
+            "set_password": "Passwort festlegen",
+            "title": "Konten",
+            "title_add": "Konto hinzufügen",
+            "toast_add_success": "Konto erstellt",
+            "toast_edit_mollie_customer_id_success": "Mollie Kunden-ID gespeichert",
+            "toast_edit_password_success": "Neues Passwort festgelegt",
+            "toast_edit_success": "Profil gespeichert"
+        },
+        "b2b": {
+            "archived": "B2B-Beziehung archiviert",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diese B2B-Beziehung löschen möchten?",
+            "deleted": "B2B-Beziehung gelöscht",
+            "empty_archive": "Es wurden noch keine Geschäftsbeziehungen archiviert.",
+            "empty_list": "Es wurden noch keine Geschäftsbeziehungen hinzugefügt.",
+            "error_loading": "Fehler beim Laden der Geschäftsbeziehungen... :(",
+            "explanation": "Unternehmen, mit denen diese Organisation verbunden ist",
+            "invoices": {
+                "empty_list": "Für diese Beziehung wurden noch keine Rechnungen erstellt",
+                "title_add": "Rechnung hinzufügen",
+                "toast_add_success": "Rechnung hinzugefügt"
+            },
+            "restored": "B2B-Beziehung in aktuell verschoben",
+            "title": "Business-to-Business",
+            "title_add": "Business-to-Business-Beziehung hinzufügen",
+            "title_edit": "Business-to-Business-Beziehung bearbeiten",
+            "toast_add_success": "Business-to-Business-Beziehung hinzugefügt. Sie bearbeiten jetzt die neue Beziehung.",
+            "toast_edit_success": "Gespeichert"
+        },
+        "btn_export_active_accounts": "Aktive exportieren",
+        "suppliers": {
+            "title": "Lieferanten"
+        },
+        "title": "Beziehungen"
+    },
+    "schedule": {
+        "appointments": {
+            "add": "Termin hinzufügen",
+            "all_appointments_in_series": "Alle",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Termin und alle zugehörigen Daten löschen möchten?",
+            "deleted": "Termin gelöscht",
+            "empty_list": "Keine Termine an diesem Tag gefunden",
+            "filter_all_appointments": "Alle Termintypen",
+            "filter_all_locations": "Alle Standorte",
+            "frequencyInterval": "Wochentag",
+            "frequencyType": "Wiederkehrend",
+            "go_to_date": "Zum Datum gehen",
+            "placeholder_enddate": "Klicken Sie, um ein Datum auszuwählen, oder lassen Sie es leer, wenn es kein Enddatum gibt",
+            "public": "Öffentlich",
+            "select_specific": "Einmalig",
+            "select_weekly": "Wöchentlich",
+            "title": "Termine",
+            "title_add": "Termin hinzufügen",
+            "title_edit": "Termin bearbeiten",
+            "toast_add_success": "Termin hinzugefügt",
+            "toast_edit_success": "Gespeichert",
+            "tooltip_sort_by_location": "Nach Standort sortieren",
+            "tooltip_sort_by_starttime": "Nach Startzeit sortieren"
+        },
+        "classes": {
+            "add": "Kurs hinzufügen",
+            "all_classes_in_series": "Alle Kurse",
+            "class": {
+                "attendance": {
+                    "attending": "Teilnehmend",
+                    "booked": "Gebucht",
+                    "booking_status": {
+                        "ATTENDING": "Teilnehmend",
+                        "BOOKED": "Gebucht",
+                        "CANCELLED": "Storniert",
+                        "invalid_type": "Unbekannt"
+                    },
+                    "confirm_resending_info_mail_title": "Info-E-Mail erneut senden",
+                    "confirm_resending_info_mail_to": "Möchten Sie die Info-E-Mail für diesen Kurs erneut an das unten stehende Konto senden?",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Kunden von der Teilnehmerliste entfernen möchten?",
+                    "delete_success": "Kunde von der Liste entfernt",
+                    "empty_list": "Noch keine Teilnahme registriert",
+                    "error_loading": "Fehler beim Laden... :(",
+                    "placeholder_search": "Suchen, um Teilnahme zu registrieren",
+                    "resend_info_mail": "Info-E-Mail erneut senden",
+                    "resend_success": "Info-E-Mail gesendet",
+                    "search_customer_not_found": "Kunde nicht gefunden",
+                    "search_no_account_results": "Die Suche ergab keine Ergebnisse",
+                    "search_result_empty": "Keine Kunden gefunden, die der Suche entsprechen",
+                    "search_results_already_checked_in": "Bereits eingecheckt",
+                    "status_saved": "Buchungsstatus aktualisiert",
+                    "this_class_is_cancelled": "Dieser Kurs wurde abgesagt",
+                    "trial": "Probestunde",
+                    "unable_to_add_attendance": "Teilnahme konnte nicht hinzugefügt werden"
+                },
+                "attendance_chart": {
+                    "title": "Teilnahmestatistik"
+                },
+                "book": {
+                    "classpass_not_allowed": "Nicht für diesen Kurs erlaubt",
+                    "dropin_pay_and_book": "Bezahlen und Kurs buchen",
+                    "subscription_blocked": "Dieses Abonnement ist gesperrt",
+                    "subscription_not_allowed": "Nicht für diesen Kurs erlaubt",
+                    "subscription_paused": "Dieses Abonnement ist pausiert",
+                    "toast_success": "Check-in erfolgreich",
+                    "trial_pay_and_book": "Bezahlen und Kurs buchen"
+                },
+                "edit": {
+                    "delete_all_changes": "Alle Änderungen an diesem Datum entfernen",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie alle Änderungen für diesen Kurs an diesem Datum löschen möchten?",
+                    "delete_success": "Alle Änderungen für den Kurs entfernt",
+                    "toast_edit_success": "Gespeichert"
+                },
+                "enroll": {
+                    "subscription_not_allowed": "Nicht für diesen Kurs erlaubt"
+                },
+                "enrollments": {
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Anmeldung löschen möchten?",
+                    "delete_success": "Anmeldung gelöscht"
+                },
+                "menu": {
+                    "edit_this_class": "Diesen Kurs bearbeiten"
+                },
+                "processing_checkin": "Checking in...",
+                "unable_to_book_class": "Kurs konnte nicht gebucht werden"
+            },
+            "classpass_dropin": "Drop-in Kurspass",
+            "classpass_trial": "Probestunden-Kurspass",
+            "classpasses": {
+                "add": "Hinzufügen",
+                "attend_disabled": "Kann nicht geändert werden",
+                "attend_disabled_help": "Teilnahme muss aktiviert sein, wenn 'Im Webshop buchen' gesetzt ist.",
+                "empty_list": "Es wurden noch keine Kurspass-Gruppen definiert.",
+                "error_loading": "Fehler beim Laden der Kurspass-Gruppen für diesen Kurs :(",
+                "shop_book": "Im Webshop buchen",
+                "title": "Kurspässe",
+                "toast_edit_success": "Gespeichert"
+            },
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Kurs und alle zugehörigen Daten löschen möchten?",
+            "deleted": "Kurs gelöscht",
+            "empty_list": "Keine Kurse an diesem Tag geplant",
+            "enrollments": {
+                "available_enrollment_spaces": "Verfügbare Anmeldeplätze",
+                "empty_list": "Es haben sich noch keine Kunden für diesen Kurs angemeldet",
+                "enrolled": "Angemeldet",
+                "enrollment_options_for": "Anmeldeoptionen für",
+                "error_loading": "Fehler beim Laden der Anmeldungen... :(",
+                "placeholder_date_end": "Kein Enddatum",
+                "search": {
+                    "empty_list": "Ihre Suche ergab keine Ergebnisse",
+                    "error_loading": "Fehler beim Laden der Konten... :(",
+                    "search_to_find_customers_to_enroll": "Verwenden Sie die Suchfunktion, um Kunden für die Anmeldung zu finden.",
+                    "title": "Nach Kunden für die Anmeldung suchen"
+                },
+                "title_add": "Anmelden",
+                "title_edit": "Anmeldung bearbeiten",
+                "toast_add_success": "Anmeldung hinzugefügt",
+                "toast_creating_might_take_a_while": "Diese neue Anmeldung wird verarbeitet.",
+                "toast_edit_success": "Gespeichert"
+            },
+            "explanation": "Wöchentliche & einmalige Kurse",
+            "filter_all_classtypes": "Alle Kurstypen",
+            "filter_all_instructors": "Alle Kursleiter",
+            "filter_all_levels": "Alle Stufen",
+            "filter_all_locations": "Alle Standorte",
+            "frequencyInterval": "Wochentag",
+            "frequencyType": "Wiederkehrend",
+            "go_to_date": "Zum Datum gehen",
+            "info_mail_enabled": "Info-E-Mails senden",
+            "instructor_roles": {
+                "assistant": "Assistent",
+                "karma": "Karma",
+                "sub": "Vertretung"
+            },
+            "instructors": {
+                "add": "Kursleiter hinzufügen",
+                "delete_confirm_description": "",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Kursleiter-Eintrag löschen möchten?",
+                "deleted": "Kursleiter-Eintrag gelöscht",
+                "empty_list": "Es wurden noch keine Kursleiter zu diesem Kurs hinzugefügt",
+                "error_loading": "Fehler beim Laden der Kursleiter für diesen Kurs :(",
+                "title": "Kursleiter",
+                "title_add": "Kursleiter hinzufügen",
+                "title_edit": "Kursleiter bearbeiten",
+                "toast_add_success": "Kursleiter hinzugefügt",
+                "toast_edit_success": "Kursleiter gespeichert"
+            },
+            "no_instructor": "Suche nach einem Kursleiter",
+            "placeholder_enddate": "Klicken Sie, um ein Datum auszuwählen, oder lassen Sie es leer, wenn es kein Enddatum gibt",
+            "prices": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Preis löschen möchten?",
+                "delete_success": "Drop-in & Probestunden-Pass gelöscht",
+                "empty_list": "Es wurden noch keine Preise für diesen Kurs definiert.",
+                "error_loading": "Fehler beim Laden der Preise für diesen Kurs :(",
+                "title": "Drop-in und Probestunde",
+                "title_add": "Preis hinzufügen",
+                "title_edit": "Preis bearbeiten",
+                "toast_add_success": "Drop-in & Probestunden-Pass hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "public": "Dies ist ein öffentlicher Kurs",
+            "select_last_weekday_of_month": "Letzter Wochentag des Monats",
+            "select_specific": "Einmalig",
+            "select_weekly": "Wöchentlich",
+            "spaces": "Gesamtplätze",
+            "spaces_enrollments": "Maximale Anmeldungen",
+            "spaces_walk_in": "Walk-in-Plätze (Nicht online buchbar)",
+            "subscriptions": {
+                "attend_disabled": "Kann nicht geändert werden",
+                "attend_disabled_help": "Teilnahme muss aktiviert sein, wenn 'anmelden' oder 'im Webshop buchen' gesetzt ist.",
+                "empty_list": "Es wurden noch keine Abonnementgruppen definiert.",
+                "error_loading": "Fehler beim Laden der Abonnementgruppen für diesen Kurs :(",
+                "shop_book": "Im Webshop buchen",
+                "title": "Abonnements",
+                "toast_edit_success": "Gespeichert"
+            },
+            "title": "Kurse",
+            "title_add": "Kurs hinzufügen",
+            "title_edit": "Kurs bearbeiten",
+            "toast_add_success": "Kurs hinzugefügt",
+            "toast_edit_success": "Kurs gespeichert",
+            "tooltip_sort_by_location": "Nach Standort sortieren",
+            "tooltip_sort_by_starttime": "Nach Startzeit sortieren"
+        },
+        "event": {
+            "error_loading": "Fehler beim Laden der Veranstaltung... :(",
+            "instructor_please_select": "Bitte auswählen...",
+            "location_please_select": "Bitte auswählen..."
+        },
+        "events": {
+            "activities": {
+                "add": "Aktivität hinzufügen",
+                "attendance": {
+                    "empty_list": "Für diese Aktivität wurde noch keine Teilnahme registriert."
+                },
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Aktivität löschen möchten?",
+                "delete_success": "Aktivität gelöscht",
+                "edit": "Aktivität bearbeiten",
+                "empty_list": "Für diese Veranstaltung wurden noch keine Aktivitäten erstellt.",
+                "public": "Dies ist eine öffentliche Aktivität",
+                "title": "Aktivitäten",
+                "toast_add_success": "Aktivität hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "add": "Veranstaltung hinzufügen",
+            "archive_confirm_msg": "Möchten Sie diese Veranstaltung archivieren?",
+            "auto_send_info_mail": "Info-E-Mail automatisch senden",
+            "confirm_duplicate": "Veranstaltung duplizieren?",
+            "earlybirds": {
+                "add": "Frühbucherrabatt hinzufügen",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Frühbucherrabatt löschen möchten?",
+                "delete_success": "Frühbucherrabatt gelöscht",
+                "discountPercentage": "Rabattprozentsatz",
+                "edit": "Frühbucherrabatt bearbeiten",
+                "empty_list": "Für diese Veranstaltung wurden noch keine Frühbucherrabatte definiert",
+                "title": "Frühbucherrabatte",
+                "toast_add_success": "Frühbucherrabatt hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "edit": {
+                "title": "Veranstaltung bearbeiten"
+            },
+            "error_loading": "Fehler beim Laden der Veranstaltungen :(",
+            "error_loading_data": "Fehler beim Laden der Veranstaltungsdaten :(",
+            "explanation": "Workshops, Veranstaltungen usw. verwalten",
+            "media": {
+                "add": "Veranstaltungsbild hinzufügen",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Veranstaltungsbild löschen möchten?",
+                "delete_success": "Veranstaltungsbild gelöscht",
+                "edit": "Veranstaltungsbild bearbeiten",
+                "empty_list": "Für diese Veranstaltung wurden noch keine Medien hinzugefügt",
+                "title": "Bilder",
+                "toast_add_success": "Medien hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "public": "Dies ist eine öffentliche Veranstaltung",
+            "shop": "Diese Veranstaltung wird im Shop angezeigt",
+            "subscription_group_discounts": {
+                "add": "Abonnementgruppenrabatt hinzufügen",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diesen Abonnementgruppenrabatt löschen möchten?",
+                "delete_success": "Abonnementgruppenrabatt gelöscht",
+                "edit": "Abonnementgruppenrabatt bearbeiten",
+                "empty_list": "Für diese Veranstaltung wurden noch keine Abonnementgruppenrabatte definiert",
+                "title": "Abonnementrabatte",
+                "toast_add_success": "Abonnementgruppenrabatt hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "tickets": {
+                "activities": {
+                    "toast_edit_success": "Gespeichert"
+                },
+                "add": "Ticket hinzufügen",
+                "customers": {
+                    "cancelled": "Storniert",
+                    "search": {
+                        "empty_list": "Ihre Suche ergab keine Ergebnisse",
+                        "error_loading": "Fehler beim Laden der Kunden :(",
+                        "search_to_find_customers_to_sell_to": "Verwenden Sie die Suchfunktion, um Kunden zu finden, an die Sie dieses Ticket verkaufen möchten",
+                        "title": "Ticket verkaufen"
+                    },
+                    "search_results_already_bought": "Hat dieses Ticket bereits",
+                    "toast_add_success": "Ticket verkauft an",
+                    "uncancelled": "Stornierung aufgehoben"
+                },
+                "delete_confirm_msg": "Möchten Sie dieses Ticket löschen?",
+                "delete_success": "Ticket gelöscht",
+                "edit": "Ticket bearbeiten",
+                "edit_menu": {
+                    "activities": "Aktivitäten",
+                    "attendance": "Teilnahmen",
+                    "customers": "Kunden",
+                    "general": "Allgemein"
+                },
+                "empty_list": "Für diese Veranstaltung wurden noch keine Tickets erstellt.",
+                "info_mail_sent": "Info-E-Mail gesendet",
+                "public": "Dies ist ein öffentliches Ticket",
+                "title": "Tickets",
+                "toast_add_success": "Ticket hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "title": "Veranstaltungen",
+            "toast_add_success": "Veranstaltung hinzugefügt",
+            "toast_duplicate_success": "Veranstaltung dupliziert",
+            "toast_edit_success": "Gespeichert",
+            "unarchive_confirm_msg": "Möchten Sie diese Veranstaltung wiederherstellen?"
+        },
+        "shifts": {
+            "all_shifts_in_series": "Alle Schichten",
+            "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Schicht löschen möchten?",
+            "deleted": "Schicht gelöscht",
+            "employees": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie diese Mitarbeiter aus dieser Schicht entfernen möchten?",
+                "deleted": "Mitarbeiter für diese Schicht gelöscht",
+                "empty_list": "Es wurden noch keine Mitarbeiter zu dieser Schicht hinzugefügt",
+                "error_loading": "Fehler beim Laden der Schichtmitarbeiter... :(",
+                "title": "Schichtzuweisung",
+                "title_add": "Mitarbeiter zur Schicht hinzufügen",
+                "title_edit": "Schichtmitarbeiter bearbeiten",
+                "toast_add_success": "Mitarbeiter zur Schicht hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "empty_list": "Keine Schichten an diesem Tag geplant.",
+            "explanation": "Personalschichten verwalten",
+            "filter_all_locations": "Alle Standorte",
+            "filter_all_shifts": "Alle Schichten",
+            "no_employee": "Nicht zugewiesen",
+            "shift": {
+                "edit": {
+                    "delete_all_changes": "Alle Änderungen an diesem Datum entfernen",
+                    "delete_confirm_msg": "Sind Sie sicher, dass Sie alle Änderungen an dieser Schicht entfernen möchten?",
+                    "delete_success": "Schichtänderungen gelöscht",
+                    "toast_edit_success": "Gespeichert"
+                }
+            },
+            "title": "Personal",
+            "title_add": "Schicht hinzufügen",
+            "title_edit": "Schicht bearbeiten",
+            "toast_add_success": "Schicht hinzugefügt",
+            "toast_edit_success": "Gespeichert"
+        },
+        "title": "Zeitplan"
+    },
+	"search": "Suche",
+    "selfcheckin": {
+        "checkin": {
+            "error_loading": "Fehler beim Laden des Check-ins :(",
+            "title_not_on_list": "Nicht auf der Liste?"
+        },
+        "classes": {
+            "error_loading": "Fehler beim Laden der Kurse :(",
+            "go_to_checkin": "Zum Check-in",
+            "title": "Kurse"
+        },
+        "home": {
+            "title": "Selbst-Check-in"
+        },
+        "locations": {
+            "error_loading": "Fehler beim Laden der Standorte :(",
+            "please_select": "Bitte wählen Sie Ihren Standort"
+        }
+    },
+    "settings": {
+        "about": {
+            "about": {
+                "license_version": "Costasiella wird unter GPL-2.0-or-later veröffentlicht.",
+                "this_is_costasiella": "Dies ist Costasiella",
+                "title": "Über Costasiella"
+            },
+            "diagnostics": {
+                "browser_local_storage": "Browser Local Storage Werte",
+                "explanation": "Fehlerbehebungsinformationen anzeigen.",
+                "title": "Diagnose"
+            },
+            "explanation": "System- und Lizenzinformationen.",
+            "title": "Über"
+        },
+        "error_loading": "Fehler beim Laden der Einstellungen :(",
+        "finance": {
+            "bank_accounts": {
+                "explanation": "Bankkontenverhalten konfigurieren, z.B. IBAN-Prüfung",
+                "iban": "Alle Bankkonten sollten eine gültige IBAN sein",
+                "title": "Bankkonten"
+            },
+            "currency": {
+                "explanation": "Währung und Währungssymbol festlegen",
+                "title": "Währung"
+            },
+            "currency_symbol": "Währungssymbol",
+            "title": "Finanzen"
+        },
+        "general": {
+            "date_format": "Datumsformat",
+            "date_formats": {
+                "DD-MM-YYYY": "TT-MM-JJJJ",
+                "MM-DD-YYYY": "MM-TT-JJJJ",
+                "YYYY-MM-DD": "JJJJ-MM-TT"
+            },
+            "date_time": {
+                "explanation": "Datums- und Uhrzeitformat",
+                "title": "Datum und Uhrzeit"
+            },
+            "datetime": "Datum und Uhrzeit",
+            "error_loading": "Fehler beim Laden der Einstellungen :(",
+            "system": {
+                "explanation": "Systemeinstellungen",
+                "system_hostname": "Hostname dieser Installation (z.B. demo.costasiella.com ohne http:// oder https://)",
+                "title": "System"
+            },
+            "time_format": "Zeitformat",
+            "time_formats": {
+                "12hr": "AM/PM",
+                "24hr": "24-Stunden"
+            },
+            "title": "Allgemein",
+            "toast_edit_success": "Einstellungen gespeichert"
+        },
+        "home": {
+            "link_edit": "Einstellungen ändern"
+        },
+        "integration": {
+            "mailchimp": {
+                "api_key": "MailChimp API-Schlüssel",
+                "explanation": "MailChimp-Integrationseinstellungen",
+                "server_prefix": "MailChimp-Serverpräfix (z.B. us19)",
+                "title": "MailChimp"
+            },
+            "mollie": {
+                "api_key": "Mollie API-Schlüssel",
+                "create_account_message": "Erstellen Sie ein neues Mollie-Konto, um Ihren API-Schlüssel zu erhalten und damit Online-Zahlungen in Costasiella zu verarbeiten.",
+                "create_account_title": "Mollie ist noch nicht konfiguriert",
+                "explanation": "Mollie-Integrationseinstellungen",
+                "title": "Mollie",
+                "to_mollie": "Zu Mollie"
+            },
+            "title": "Integration"
+        },
+        "mail": {
+            "mailchimp_lists": {
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie die Verknüpfung zu dieser MailChimp-Liste löschen möchten?",
+                "delete_success": "Gelöscht",
+                "empty_list": "Es wurden noch keine MailChimp-Listen definiert",
+                "error_loading": "Fehler beim Laden der MailChimp-Listen... :(",
+                "explanation": "Verwalten Sie mit Costasiella verbundene MailChimp-Listen",
+                "mailchimp_list_id": "MailChimp-Zielgruppen-/Listen-ID",
+                "title": "MailChimp-Listen",
+                "title_add": "MailChimp-Liste hinzufügen",
+                "title_edit": "MailChimp-Liste bearbeiten",
+                "toast_add_success": "MailChimp-Liste hinzugefügt",
+                "toast_edit_success": "Gespeichert"
+            },
+            "notifications": {
+                "accounts": "Konten, die diese Benachrichtigung erhalten",
+                "add_account": "Konto hinzufügen",
+                "btn_add_account": "Konto benachrichtigen",
+                "delete_confirm_msg": "Sind Sie sicher, dass Sie dieses Konto von der Benachrichtigungsliste entfernen möchten?",
+                "delete_success": "Konto von der Benachrichtigungsliste entfernt",
+                "empty_list": "Es wurden noch keine Benachrichtigungen definiert. Bitte überprüfen Sie bei Ihrem Systemadministrator, ob die Fixtures geladen wurden.",
+                "error_loading": "Fehler beim Laden der Benachrichtigungseinstellungen... :(",
+                "explanation": "Verwalten Sie Konten, die über Ereignisse in Costasiella benachrichtigt werden sollen",
+                "placeholder_search_account": "Suchen Sie nach Konten, die benachrichtigt werden sollen",
+                "title": "Benachrichtigungen",
+                "toast_add_success": "Konto hinzugefügt"
+            },
+            "templates": {
+                "class_info_mail": {
+                    "help_comments": "Keine Variablen verfügbar",
+                    "help_content": "{{ mail_content }} (Inhalt wie in den Kurs-Bearbeitungsseiten in den Info-Mail-Feldern festgelegt)",
+                    "help_description": "{{ class_date }} (Datum des Kurses), {{ class_time }} (Uhrzeit des Kurses), {{ class_classtype }} (Art des Kurses), {{ class_location }} (Ort des Kurses)",
+                    "help_subject": "Keine Variablen verfügbar",
+                    "help_title": "Keine Variablen verfügbar",
+                    "title": "Kurs-Info-Mail"
+                },
+                "edit": {
+                    "title": "Vorlage bearbeiten",
+                    "toast_edit_success": "Gespeichert"
+                },
+                "error_loading": "Fehler beim Laden der E-Mail-Vorlagen :(",
+                "event_info_mail": {
+                    "help_comments": "Keine Variablen verfügbar",
+                    "help_content": "{{ mail_content }} (Inhalt wie im Feld für Event-Info-Mail festgelegt)",
+                    "help_description": "{{ schedule_event }} (Termin-Event-Objekt), {{ schedule_event_ticket }} (Termin-Event-Ticket-Objekt), {{ schedule_event_time_info }} (Termin-Event-Zeitinfo)",
+                    "help_subject": "Keine Variablen verfügbar",
+                    "help_title": "{{ schedule_event }} (Termin-Event-Objekt)",
+                    "title": "Event-Info-Mail"
+                },
+                "explanation": "Legen Sie den Inhalt systemgenerierter E-Mails fest.",
+                "name": "Name",
+                "not_found": {
+                    "help_comments": "",
+                    "help_content": "",
+                    "help_description": "",
+                    "help_subject": "",
+                    "help_title": "",
+                    "title": "Vorlage nicht gefunden"
+                },
+                "order_received": {
+                    "help_comments": "Keine Variablen verfügbar",
+                    "help_content": "{{order}} (Bestellinformationen), {{order_items}} (Tabelle der Bestellposten)",
+                    "help_description": "{{ order }} (Bestellinformationen), {{order_date}} (Bestelldatum)",
+                    "help_subject": "Keine Variablen verfügbar",
+                    "help_title": "Keine Variablen verfügbar",
+                    "title": "Bestellung erhalten"
+                },
+                "recurring_payment_failed": {
+                    "help_comments": "Keine Variablen verfügbar",
+                    "help_content": "{{link_profile_invoices}} (Link zu Kundenprofilrechnungen)",
+                    "help_description": "Keine Variablen verfügbar",
+                    "help_subject": "Keine Variablen verfügbar",
+                    "help_title": "Keine Variablen verfügbar",
+                    "title": "Wiederkehrende Zahlung fehlgeschlagen"
+                },
+                "system_footer": {
+                    "help_comments": "Dieses Feld wird nicht verwendet",
+                    "help_content": "Fußzeileninhalt für alle automatisierten E-Mails hier",
+                    "help_description": "Dieses Feld wird nicht verwendet",
+                    "help_subject": "Dieses Feld wird nicht verwendet",
+                    "help_title": "Dieses Feld wird nicht verwendet",
+                    "title": "Systemfußzeile"
+                },
+                "title": "Vorlagen",
+                "trialpass_followup": {
+                    "help_comments": "Keine Variablen verfügbar",
+                    "help_content": "{{account.first_name}} (Vorname des Kontos)",
+                    "help_description": "Keine Variablen verfügbar",
+                    "help_subject": "Keine Variablen verfügbar",
+                    "help_title": "Keine Variablen verfügbar",
+                    "title": "Probepass-Nachfassaktion"
+                }
+            },
+            "title": "E-Mail"
+        },
+        "shop": {
+            "account_profiles": {
+                "explanation": "Erforderliche Profilfelder definieren",
+                "options": {
+                    "contact": "Kontaktinformationen (Name, E-Mail, Telefon und Adresse)",
+                    "minimal": "Minimal (Name und E-Mail)"
+                },
+                "required_fields": "Erforderliche Felder",
+                "title": "Kontoprofile"
+            },
+            "features": {
+                "explanation": "Wählen Sie, welche Shop-Funktionen verwendet werden sollen",
+                "title": "Shop-Funktionen"
+            },
+            "title": "Shop"
+        },
+        "title": "Einstellungen",
+        "workflow": {
+            "class_booking": {
+                "book_days_advance": "Anzahl der Tage im Voraus, an denen Kunden Kurse buchen können",
+                "cancel_until": "Anzahl der Stunden vor Kursbeginn, in denen eine Buchung unter Rückgabe des Guthabens storniert werden kann",
+                "explanation": "Einstellungen für Kursbuchung und -stornierung",
+                "title": "Kursbuchung"
+            },
+            "shop": {
+                "explanation": "Shop-Arbeitsabläufe",
+                "subscription_payment_method": "Zahlungsmethode für Abonnements",
+                "title": "Shop"
+            },
+            "subscription_pauses": {
+                "explanation": "Konfigurieren Sie Einschränkungen für Abonnement-Pausen",
+                "max_pauses_in_year": "Maximale Anzahl erlaubter Pausen in einem Jahr",
+                "min_duration_in_days": "Mindestdauer einer Pause (in Tagen)",
+                "title": "Abonnement-Pausen"
+            },
+            "title": "Arbeitsablauf",
+            "trial": {
+                "explanation": "Limit für den Kauf von Probekarten",
+                "title": "Probe",
+                "trial_pass_limit": "Anzahl, wie oft ein Kunde eine Probekarte kaufen kann"
+            }
+        }
+    },
+    "shop": {
+        "account": {
+            "bank_account": {
+                "error_loading_data": "Fehler beim Laden des Bankkontos... :(",
+                "explanation": "Verwalten Sie Ihre Bankinformationen",
+                "title": "Mein Bankkonto",
+                "toast_edit_success": "Bankkonto gespeichert"
+            },
+            "btn_go_to": "Wählen Sie, wohin Sie gehen möchten",
+            "btn_text_bank_account_edit": "Bankinformationen aktualisieren",
+            "btn_text_change_password": "Passwort ändern",
+            "btn_text_manage": "Verwalten",
+            "btn_text_profile_edit": "Profil aktualisieren",
+            "btn_text_sign_out": "Abmelden",
+            "btn_text_view": "Ansehen",
+            "change_password": {
+                "explanation": "Klicken Sie auf die Schaltfläche unten, um Ihr Passwort zu ändern.",
+                "title": "Passwort ändern"
+            },
+            "class_cancel": {
+                "already_cancelled": "Ihre Buchung für diesen Kurs wurde bereits storniert.",
+                "cancelation_not_possible": "Ihre Buchung für diesen Kurs kann nicht mehr storniert werden",
+                "confirm_no": "Nein, meine Buchung nicht stornieren",
+                "confirm_yes": "Kursbuchung stornieren",
+                "confirmation_question": "Sind Sie sicher, dass Sie Ihre Buchung für diesen Kurs stornieren möchten?",
+                "success": "Ihre Kursbuchung wurde storniert."
+            },
+            "class_info": {
+                "error_loading_data": "Fehler beim Laden der Kursinformationen... :(",
+                "title": "Kursinformationen"
+            },
+            "class_uncancel": {
+                "confirm_yes": "Kurs buchen",
+                "confirmation_question": "Sind Sie sicher, dass Sie diesen Kurs buchen möchten?",
+                "not_cancelled": "Diese Kursbuchung ist nicht storniert. Bitte gehen Sie zurück und aktualisieren Sie die Liste, um den aktuellen Status anzuzeigen.",
+                "success": "Kurs gebucht",
+                "uncancelation_not_possible": "Dieser Kurs kann nicht mehr gebucht werden. Er ist entweder voll oder bereits beendet."
+            },
+            "classes": {
+                "empty_list": "Sie haben noch keine Kurse gebucht",
+                "error_loading_data": "Fehler beim Laden Ihrer Kurse... :(",
+                "explanation": "Sehen Sie Ihre kommenden und vergangenen Kurse",
+                "title": "Meine Kurse"
+            },
+            "classpasses": {
+                "empty_list": "Keine Kurspässe gefunden.",
+                "error_loading_data": "Fehler beim Laden der Kurspässe :(",
+                "explanation": "Sehen Sie Ihre aktuellen und vergangenen Kurspässe",
+                "title": "Meine Kurspässe"
+            },
+            "error_loading_user_data": "Fehler beim Laden der Profildaten :(",
+            "event_tickets": {
+                "empty_list": "Keine Tickets gefunden",
+                "error_loading_data": "Fehler beim Laden Ihrer Tickets... :(",
+                "explanation": "Sehen Sie Ihre kommenden und vergangenen Veranstaltungstickets",
+                "title": "Meine Veranstaltungstickets"
+            },
+            "goto": {
+                "explanation": "Zu einer anderen Funktion wie dem Backend wechseln."
+            },
+            "invoice": {
+                "billed_to_b2b": "Diese Rechnung wird gestellt an",
+                "error_loading_data": "Fehler beim Laden der Rechnung... :(",
+                "pieces": "Stück",
+                "title": "Rechnung"
+            },
+            "invoice_payment": {
+                "error_loading_data": "Fehler beim Laden der Rechnungsdaten... :(",
+                "title": "Rechnungszahlung"
+            },
+            "invoice_payment_status": {
+                "error_loading_data": "Fehler beim Laden der Rechnungsdaten... :(",
+                "payment_not_confirmed": "Wir konnten Ihre Zahlung nicht bestätigen. Falls dies ein Fehler ist, kontaktieren Sie uns bitte.",
+                "payment_received": "Zahlung erhalten",
+                "to_profile": "Fortfahren"
+            },
+            "invoices": {
+                "empty_list": "Sie haben noch keine Rechnungen.",
+                "error_loading_data": "Fehler beim Laden Ihrer Rechnungen... :(",
+                "explanation": "Sehen und laden Sie Ihre Rechnungen herunter.",
+                "title": "Meine Rechnungen",
+                "to_be_paid": "Zu bezahlen",
+                "to_payment": "Jetzt bezahlen"
+            },
+            "mailing_lists": {
+                "empty_list": "Es wurden noch keine MailChimp-Listen verknüpft",
+                "error_loading_data": "Fehler beim Laden der verknüpften MailChimp-Listen... :(",
+                "explanation": "Verwalten Sie Ihre Mailinglisten-Abonnements.",
+                "subscribe": "Abonnieren",
+                "subscribing": "Abonniere...",
+                "title": "Mailinglisten",
+                "toast_update_subscription_status_success": "Abonnementstatus aktualisiert!",
+                "unsubscribe": "Abbestellen",
+                "unsubscribing": "Abbestelle..."
+            },
+            "orders": {
+                "confirm_cancel": "Bestellung stornieren?",
+                "confirm_cancel_no": "Nein, nicht stornieren",
+                "confirm_cancel_yes": "Ja, stornieren",
+                "empty_list": "Sie haben noch keine Bestellungen aufgegeben.",
+                "explanation": "Sehen und verwalten Sie Ihre Bestellungen.",
+                "msg_cancel_confirm": "Sind Sie sicher, dass Sie diese Bestellung stornieren möchten?",
+                "order": {
+                    "cancelled": "Bestellung storniert"
+                },
+                "title": "Meine Bestellungen",
+                "to_payment": "Zahlung"
+            },
+            "profile": {
+                "download_my_data": "Meine Daten herunterladen",
+                "error_loading_data": "Fehler beim Laden der Profildaten :(",
+                "explanation": "Aktualisieren Sie Ihren Namen und Ihre Kontaktinformationen.",
+                "title": "Mein Profil",
+                "toast_edit_success": "Gespeichert"
+            },
+            "sign_out": {
+                "explanation": "Klicken Sie auf die Schaltfläche unten, um sich abzumelden.",
+                "title": "Abmelden"
+            },
+            "subscriptions": {
+                "credits": {
+                    "added_on": "Hinzugefügt am",
+                    "available": "Verfügbar",
+                    "empty_list": "Diesem Abonnement wurden noch keine Guthaben gutgeschrieben.",
+                    "expiration": "Läuft ab",
+                    "expired": "Abgelaufen",
+                    "reconciled_on": "Abgeglichen am",
+                    "status": "Status",
+                    "title": "Guthaben",
+                    "unlimited": "Dieses Abonnement hat unbegrenzte Guthaben.",
+                    "used": "Verwendet"
+                },
+                "empty_list": "Keine Abonnements gefunden.",
+                "error_loading_data": "Fehler beim Laden der Abonnements... :(",
+                "explanation": "Sehen Sie Ihre aktuellen und vergangenen Abonnements",
+                "title": "Meine Abonnements"
+            },
+            "title": "Mein Konto"
+        },
+        "accounts": {
+            "profile": {
+                "edit": "Mein Profil"
+            }
+        },
+        "checkout": {
+            "class_info": {
+                "error_loading": "Fehler beim Laden der Kursinformationen :(",
+                "have_been_checked_in": "Wir haben Ihren Platz in diesem Kurs reserviert!",
+                "info_mail": "Kursinformationen",
+                "will_be_checked_in": "Wir reservieren Ihren Platz in diesem Kurs, sobald wir Ihre Zahlung erhalten haben"
+            },
+            "complete": {
+                "fail_content_text": "Bitte kontaktieren Sie uns, falls ein technischer Fehler vorliegt und unser Personal Ihnen helfen kann.",
+                "fail_payment_text": "Es scheint, dass bei der Verarbeitung Ihrer Zahlung etwas schief gelaufen ist. ",
+                "fail_subheader": "Oh nein... ",
+                "order_not_found": "Entschuldigung... diese Bestellung konnte nicht gefunden werden...",
+                "success_content_text": "Alle Artikel dieser Bestellung und eine Rechnung wurden Ihrem Konto hinzugefügt.",
+                "success_content_text_free_order": "Alle Artikel dieser Bestellung wurden Ihrem Konto hinzugefügt.",
+                "success_payment_text": "Wir haben Ihre Zahlung für diese Bestellung erhalten.",
+                "success_subheader": "Vielen Dank!",
+                "success_subheader_free_order": "Alles ist fertig!",
+                "title": "Kasse abgeschlossen"
+            },
+            "order_summary": {
+                "error_loading": "Fehler beim Laden der Bestellinformationen :(",
+                "message": "Bestellnachricht"
+            },
+            "pageTitle": "Kasse",
+            "payment": {
+                "order_received": "Bestellung erhalten",
+                "order_received_subheader": "Wir haben Ihre Bestellung erhalten",
+                "order_received_to_payment_explanation": "Die Artikel Ihrer Bestellung werden geliefert, sobald wir die Zahlung für diese Bestellung erhalten haben.",
+                "order_received_to_payment_text": "Bitte klicken Sie auf die Schaltfläche unten, um die Zahlung zu starten.",
+                "order_received_to_profile_text": "Wir werden Sie mit Zahlungsanweisungen kontaktieren.",
+                "order_summary": "Bestellübersicht",
+                "profile_not_complete_enough": "Zur Bearbeitung Ihrer Bestellung benötigen wir einige zusätzliche Informationen. Bitte nutzen Sie die Schaltfläche unten, um Ihr Profil zu vervollständigen.",
+                "redirecting": "Bereite Zahlung vor...",
+                "to_payment": "Jetzt bezahlen",
+                "to_profile": "Zurück zum Online-Shop",
+                "update_profile": "Profil aktualisieren"
+            },
+            "title": "Kasse"
+        },
+        "checkout_progress": {
+            "complete": "Abgeschlossen",
+            "order": "Bestellung",
+            "payment": "Zahlung"
+        },
+        "classes": {
+            "book": {
+                "already_booked": "Sie haben diesen Kurs bereits gebucht. Bitte verwalten Sie Ihre Buchung in Ihrem Konto unter Meine Kurse.",
+                "class_booking_status": {
+                    "cancelled": "Dieser Kurs wurde abgesagt",
+                    "cancelled_holiday": "Dieser Kurs liegt in einem Feiertagszeitraum",
+                    "finished": "Dieser Kurs ist bereits beendet",
+                    "full": "Dieser Kurs ist ausgebucht",
+                    "ongoing": "Dieser Kurs hat bereits begonnen",
+                    "open_on": "Buchungen für diesen Kurs werden akzeptiert ab"
+                },
+                "class_doesnt_take_place_on_this_date": "Dieser Kurs findet an diesem Datum nicht statt.",
+                "dropin_pay_and_book": "Eine Einzelstunde kaufen",
+                "pay_and_book": "Bezahlen und buchen",
+                "title": "Buchungsoptionen für Kurs",
+                "trial_pay_and_book": "Eine Probestunde kaufen",
+                "unable_to_show_booking_options": "Buchungsoptionen können nicht angezeigt werden"
+            },
+            "booked": {
+                "class": "Ausgewählter Kurs",
+                "class_explanation": "Wir haben Ihren Platz im folgenden Kurs reserviert:",
+                "title": "Kurs gebucht!",
+                "to_profile": "Weiter zu meinem Konto"
+            },
+            "class_booking_status": {
+                "cancelled": "Abgesagt",
+                "cancelled_holiday": "Feiertag",
+                "finished": "Beendet",
+                "full": "Ausgebucht",
+                "ongoing": "Läuft",
+                "open_on": "Buchen ab"
+            },
+            "error_loading": "Fehler beim Laden der Kurse... :(",
+            "filter_all_classtypes": "Alle Kurstypen",
+            "filter_all_instructors": "Alle Kursleiter",
+            "filter_all_levels": "Alle Niveaus",
+            "filter_all_locations": "Alle Standorte",
+            "title": "Kurse"
+        },
+        "classpass": {
+            "additional_information": "Zusätzliche Informationen",
+            "class_book_explanation": "Sie werden in den Kurs eingetragen, sobald der Bestellvorgang abgeschlossen ist.",
+            "class_book_information": "Ausgewählter Kurs",
+            "error_loading": "Fehler beim Laden des Kurspasses :(",
+            "trial_limit_reached": "Probenlimit erreicht",
+            "trial_limit_reached_explanation": "Da Sie bereits die maximale Anzahl an Probepässen gekauft haben, bitten wir Sie, zurückzugehen und einen anderen Pass zu wählen."
+        },
+        "classpasses": {
+            "choose": "Auswählen",
+            "error_loading": "Fehler beim Laden der Kurspässe :(",
+            "title": "Kurspässe"
+        },
+        "complete": {
+            "to_account": "Zu Ihrem Konto"
+        },
+        "contact": {
+            "title": "Kontakt"
+        },
+        "event": {
+            "error_loading": "Fehler beim Laden der Veranstaltung... :(",
+            "ticket": {
+                "choose": "Auswählen",
+                "earlybird_price": "Frühbucherrabatt",
+                "free": "Kostenlos",
+                "regular_price": "Regulärer Preis",
+                "subscription_discount": "Abonnementrabatt"
+            },
+            "tickets": "Tickets"
+        },
+        "events": {
+            "error_loading": "Fehler beim Laden der Veranstaltungen... :(",
+            "sign_in_to_see_discounts": "um zu sehen, ob zusätzliche Rabatte für Ihr Konto gelten.",
+            "tell_me_more": "Mehr erfahren",
+            "ticket": {
+                "additional_info": "Zusätzliche Informationen",
+                "error_loading": "Fehler beim Laden der Ticketinformationen... :(",
+                "no_additional_info": "Für dieses Ticket wurden keine zusätzlichen Informationen festgelegt.",
+                "sold_out": "Es tut uns leid, dieses Ticket ist ausverkauft. Bitte nutzen Sie die Zurück-Taste, um zu sehen, ob andere Tickets noch verfügbar sind.",
+                "sold_out_title": "Ticket ausverkauft",
+                "title": "Veranstaltungsticket"
+            },
+            "title": "Veranstaltungen"
+        },
+        "home": {
+            "announcements": {
+                "error_loading": "Fehler beim Laden der Startseiten-Nachrichten... :("
+            },
+            "title": "Startseite"
+        },
+        "order": {
+            "agree_privacy": "Akzeptiere die",
+            "agree_terms": "Akzeptiere die ",
+            "by_placing_this_order": "Mit dieser Bestellung",
+            "direct_debit_permission": "Autorisiere ich den monatlichen Lastschrifteinzug der Gebühr für das ausgewählte Abonnement vom in meinem Konto hinterlegten Bankkonto",
+            "message": "Eine Nachricht zu dieser Bestellung?",
+            "payment": "Zahlung"
+        },
+        "place_order": "Bestellung aufgeben",
+        "subscription": {
+            "additional_information": "Zusätzliche Informationen",
+            "bank_account_required": "Bankkonto erforderlich",
+            "bank_account_required_explanation": "Um dieses Abonnement zu aktivieren, werden Ihre Bankinformationen benötigt.",
+            "error_loading": "Fehler beim Laden der Abonnementinformationen...:(",
+            "please_select_date": "Bitte Startdatum auswählen",
+            "start_on": "Abonnement beginnt ab",
+            "to_bank_account": "Bankinformationen festlegen"
+        },
+        "subscription_directdebit_activated": {
+            "message_activated": "Ihr Abonnement wurde aktiviert. Sie können es nutzen, um Kurse ab dem Startdatum Ihres Abonnements zu buchen.",
+            "next_account": "Zu meinem Konto",
+            "next_book_class": "Einen Kurs buchen",
+            "next_continue_shopping": "Weiter einkaufen",
+            "starting_on": "beginnend am",
+            "thank_you": "Vielen Dank!",
+            "what_next_question": "Was möchten Sie als Nächstes tun?"
+        },
+        "subscriptions": {
+            "choose": "Auswählen",
+            "error_loading": "Fehler beim Laden der Abonnements...:(",
+            "min_duration_in_months": "Mindestlaufzeit in Monaten",
+            "title": "Abonnements"
+        },
+        "title": "Shop"
+    },
+    "subscription_unit": {
+        "month": "Monat",
+        "week": "Woche"
+    },
+    "system": {
+        "user": {
+            "error_loading": "Fehler beim Laden des Benutzers :("
+        }
+    },
+    "user": {
+        "change_password": {
+            "password_current": "Aktuelles Passwort",
+            "password_new": "Neues Passwort",
+            "password_new_repeat": "Neues Passwort (wiederholen)",
+            "requirement_min_length": "Ist mindestens 9 Zeichen lang.",
+            "requirement_not_a_digit": "Besteht nicht nur aus Zahlen.",
+            "requirement_not_common": "Ist kein gewöhnliches Wort.",
+            "requirement_not_similar_account": "Enthält nicht (Teile von) Ihrem Namen oder Ihrer E-Mail-Adresse.",
+            "requirements": "Passwortanforderungen",
+            "success": "Neues Passwort gespeichert",
+            "title": "Passwort ändern"
+        },
+        "login": {
+            "email": "E-Mail",
+            "email_placeholder": "E-Mail...",
+            "password_placeholder": "Passwort ...",
+            "title": "Anmelden"
+        },
+        "login_required": {
+            "go_to_login": "Zur Anmeldung",
+            "message": "Sie müssen angemeldet sein, um diese Seite anzuzeigen.",
+            "title": "Anmeldung erforderlich"
+        },
+        "logout": {
+            "confirmation_message": "Sind Sie sicher, dass Sie sich abmelden möchten?",
+            "success": "Sie wurden abgemeldet",
+            "title": "Abmelden"
+        },
+        "register": {
+            "create_account": "Erstellen Sie Ihr Konto",
+            "create_account_msg": "Neu hier? Machen Sie heute mit! Es dauert nur wenige Schritte.",
+            "create_account_msg_click_below": "Klicken Sie auf den Link unten, um zu beginnen.",
+            "reset_password": "Passwort vergessen?"
+        },
+        "session_expired": {
+            "go_to_login": "Erneut anmelden",
+            "message": "Um unbefugten Zugriff auf Ihr Konto zu verhindern, bitten wir Sie, sich erneut anzumelden.",
+            "title": "Sitzung abgelaufen"
+        },
+        "welcome": {
+            "backend_explantion": "Organisationsverwaltung.",
+            "backend_to": "Zum Backend",
+            "selfcheckin_explantion": "Kunden-Selbstbedienungs-Check-in.",
+            "selfcheckin_to": "Zum Selbst-Check-in",
+            "shop_explanation": "Shop und Ihr persönliches Profil.",
+            "shop_to": "Zum Shop",
+            "where_next_question": "Wohin möchten Sie als Nächstes gehen?"
+        }
+    },
+    "validity": {
+        "days": "Tage",
+        "months": "Monate",
+        "weeks": "Wochen",
+        "years": "Jahre"
+    },
+    "yup": {
+        "date_required": "Dieses Feld ist erforderlich",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "field_above_0": "Bitte geben Sie eine positive Zahl ein",
+        "field_has_to_be_number": "Bitte geben Sie eine Zahl ein",
+        "field_required": "Dieses Feld ist erforderlich",
+        "max_decimal_number": "Bitte geben Sie eine Zahl mit höchstens 18 Stellen und 20 Dezimalstellen ein",
+        "min_len_2": "Bitte geben Sie mindestens 2 Zeichen ein",
+        "min_len_3": "Bitte geben Sie mindestens 3 Zeichen ein",
+        "min_len_9": "Bitte geben Sie mindestens 9 Zeichen ein",
+        "passwords_must_match": "Die Felder für das neue Passwort müssen übereinstimmen",
+        "positive_number_required": "Bitte geben Sie eine Zahl über 0 ein",
+        "time_required": "Dieses Feld ist erforderlich",
+        "type_error_number": "Bitte geben Sie eine Zahl ein",
+        "url": "Bitte geben Sie eine gültige URL ein, die mit http:// oder https:// beginnt"
+    }
+}

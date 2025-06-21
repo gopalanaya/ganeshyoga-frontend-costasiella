@@ -21,6 +21,7 @@ import {
     RouterContextProvider,
 } from "tabler-react";
 
+import LanguageSwitcher from "../LanguageSwitcher"
 const getNavBarItems = (t, loading, error, data) => {
     const shopFeatures = data.systemFeatureShop
 
@@ -167,6 +168,7 @@ function SiteWrapperYoga({t, match, history, children}) {
                             {t('goto.title')}
                         </Button>
                     </Link>: "": ""}
+                    <LanguageSwitcher/>
                 </Nav.Item>
             ),
 

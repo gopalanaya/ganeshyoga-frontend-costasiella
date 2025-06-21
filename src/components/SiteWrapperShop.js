@@ -21,6 +21,7 @@ import {
   // Page,
   RouterContextProvider,
 } from "tabler-react";
+import LanguageSwitcher from "../LanguageSwitcher"
 
 // import type { NotificationProps } from "tabler-react";
 
@@ -199,8 +200,10 @@ function SiteWrapperShop({t, match, history, children}) {
                   {t('goto.title')}
                 </Button>
               </Link> : "" : ""}
+              <LanguageSwitcher/>
             </Nav.Item>
           ),
+          
           
           // notificationsTray: {
           //   notificationsObjects,
